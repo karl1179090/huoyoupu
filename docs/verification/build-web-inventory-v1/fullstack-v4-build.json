@@ -1,0 +1,27 @@
+{
+  "at": "2026-11-11T20:08:54.775653+00:00",
+  "status": "Build candidate only; no v4 service or browser smoke",
+  "manifest": "fullstack-source-manifest-v4.json",
+  "platform": "linux/arm64",
+  "api": {
+    "tag": "huoyoupu-test-fullstack-2sm3fc3d-api-v4",
+    "id": "sha256:396b979111706257521878430d13d52319df85be5219b5ddc5bae3bd11d48233",
+    "method": "Reuse unchanged v3 image digest after all API build inputs compared equal"
+  },
+  "web": {
+    "tag": "huoyoupu-test-fullstack-2sm3fc3d-web-v4",
+    "id": "sha256:7ef83f0aeeb06c06f6b75b53483a529227f6a111691521740e10fee720bc2499",
+    "buildExitCode": 0,
+    "buildProcessDurationSeconds": 8.79,
+    "jsAsset": "/assets/index-Bu79sepK.js",
+    "jsKilobytes": 661.61,
+    "cssAsset": "/assets/index-Cogy-3Ko.css",
+    "warning": "Vite chunk >500kB; build succeeded"
+  },
+  "afterBuildShippingDrift": [],
+  "v3OriginalImageTagsPreserved": true,
+  "composeState": "All four original project containers Exited(0), unchanged",
+  "productionServicesStarted": false,
+  "browserExecuted": false,
+  "shippingArchiveExcludes": "All frontend/backend test/support, fixture starters, credentials, env, screenshots, generated tsbuildinfo, node_modules, dist"
+}

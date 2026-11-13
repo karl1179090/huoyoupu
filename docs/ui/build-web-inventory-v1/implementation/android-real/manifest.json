@@ -1,0 +1,55 @@
+{
+  "device": {
+    "model": "SM-G981N",
+    "android": "13",
+    "chrome": "157.0.8103.48",
+    "cssViewport": {
+      "width": 360,
+      "height": 718
+    },
+    "dpr": 3
+  },
+  "at": "2026-11-12T14:56:46.329892+08:00",
+  "artifacts": {
+    "mobile-network.json": {
+      "bytes": 4645,
+      "sha256": "ee308024c1b0bd5a98ef48454cd4f180d64428923bfedfdde6248643ca08d979"
+    },
+    "mobile-confirmed.png": {
+      "bytes": 190135,
+      "sha256": "38a33f168479e02ff187afec7853d8bcd91e755aa8f34c1388186db9878c5c2c"
+    },
+    "mobile-picker.png": {
+      "bytes": 165212,
+      "sha256": "78751a3d92aae2b4d01200d75312ad89313757e9e43232d69463058c6a19d93a"
+    },
+    "print-ui.xml": {
+      "bytes": 9760,
+      "sha256": "9d877e9da089d59912eba86c12d3aaffa89b32075cb808d4b049b0b73319c1aa"
+    },
+    "mobile-print-preview.png": {
+      "bytes": 215890,
+      "sha256": "73d83000474ada5aa1eaa0f3f41af2cf35357b283e629048b48fc2a274685bfd"
+    },
+    "mobile-confirm-network.json": {
+      "bytes": 22620,
+      "sha256": "667e99f8f5bd12cea5648dbc4dac386c4379bbd27fe0f208ce0437458be1203e"
+    },
+    "mobile-print-requested.png": {
+      "bytes": 185451,
+      "sha256": "8548aacaa481c52158631efc7552cad678b6251ffd2a0ffc67ecc68c81882902"
+    },
+    "legal-template.json": {
+      "bytes": 996,
+      "sha256": "b533a536dce721719c2573d13d1dde478062e72e453342daf44a52258648d094"
+    },
+    "mobile-create-ready.png": {
+      "bytes": 86918,
+      "sha256": "e31d9638a1508829d4959ca5ca9159ac5bd91332892415858854de9d2df7144c"
+    },
+    "mobile-layout.json": {
+      "bytes": 592,
+      "sha256": "58ee547f03d3ea11c4000c023f1838da45b15000b734b7c2e5d074ac0205b026"
+    }
+  }
+}

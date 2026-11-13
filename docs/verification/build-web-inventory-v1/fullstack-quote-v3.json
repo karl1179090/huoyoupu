@@ -1,0 +1,10 @@
+{
+  "probe": "Separate authenticated HTTPS read-only set quote, outside browser zero-write window",
+  "sourceMatched": true,
+  "sourceLineId": "03142472-054e-4fcf-88a8-8290025089ed",
+  "readOnly": false,
+  "quantityBase": 2,
+  "totalAmount": "12.00",
+  "stockReserved": false,
+  "schemaUnchanged": true
+}

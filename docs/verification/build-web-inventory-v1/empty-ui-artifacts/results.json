@@ -1,0 +1,428 @@
+{
+  "pages": [
+    {
+      "name": "create",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n销售开单工作台\n\n在同一会话中批量配置多商品，支持明细行内即时编辑与自动核算\n\n下单客户与配送信息\n选择客户与地址\n点击选择客户门店及配送地址，开启开单流程\n订单商品明细 (0 行)\n批量添加商品\n暂无商品\n点击“批量添加商品”打开批量选品弹窗，在同一个会话中多选商品并配置仓库与单价\n批量添加商品\n整单备注说明\n尚未添加订单商品\n保存为草稿\n确认销售订单"
+    },
+    {
+      "name": "products",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n商品与单位资料\n\n维护商品编码、拼音助记码(如500mljy)、包装多单位换算倍率与条形码\n\n新建商品档案\n搜索\n包含已停用商品\n编码\t商品名称\t规格\t拼音助记码\t基准单位\t辅助换算包装单位\t条形码\t状态\t操作\n未找到匹配商品"
+    },
+    {
+      "name": "customers",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n客户档案与专属价\n仓库管理\n客户档案与多地址\n\n客户多配送地址共用统一资金账户，支持设置专属价、默认地址与历史成交价追溯\n\n新建客户档案\n搜索\n包含已停用客户\n客户编码\t客户名称\t主联系人\t联系电话\t配送地址清单\t状态\t操作\n未找到客户资料"
+    },
+    {
+      "name": "inventory",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n库存余量、批次与入库台账\n\n分仓不可变批次台账，记录实际入库成本与不可伪造流水，支持在库与耗尽批次游标检索\n\n实盘盘点工作台\n采购 / 期初入库登账\n选择仓库:\n商品筛选:\n全部商品\n仅看在库批次 (余量 > 0)\n分批次余量明细\n商品仓汇总\n入库单记录\n批次编号\t商品名称与规格\t批次来源\t实际入库时间\t系统登账时间\t可用基础库存\t实际单位进价成本\t库存总成本 (元)\n该仓库当前无匹配批次记录\n已加载 0 条批次记录"
+    },
+    {
+      "name": "orders",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n销售订单管理\n\n查看销售订单生命周期、版本记录、配送与打印状态\n\n新建销售订单\n搜索\n全部状态\n草稿\n已确认\n已作废\n订单单号\t下单客户\t订单状态\t配送状态\t版本\t订单金额 (元)\t打印状态\t更新时间\t操作\n未找到相关订单数据"
+    },
+    {
+      "name": "finance",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n客户往来对账与收退结算\n\n统一客户账户与多地址共享体系，分别表达商业应收与实际资金流，支持自动/手动多单分摊与余额抵扣\n\n月结对账单快照\n收退款流水\n录入期初往来\n余额核销订单\n登记收款\n办理实际退款\n选择往来客户:\n数据时点 (asOf): — | 账户版本: v0\n客户应收欠款 (元)\n¥0.00\n待收销售账款及未核销费用\n客户预存 / 抵扣余额 (元)\n¥0.00\n可用于抵扣新订单或办理实际退款\n未分配实收款 (元)\n¥0.00\n已收款但未关联指定订单明细\n净往来结余 (应收 - 预存)\n¥0.00\n正数表示客户欠款，负数表示客户多存\n往来明细账簿 (0 笔分录)记录商业应收、退货冲减、实收实退及余额核销流水\n分录编号\t业务变动类型\t变动金额 (元)\t关联单据来源\t实际业务生效时间\t系统登记时间\t冲正关联\n该客户暂无资金往来流水记录\n已加载 0 笔流水分录"
+    },
+    {
+      "name": "reports",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n经营统计与数据分析报表\n\n销售毛利、客户对比、库存结存、往来账本、资金流水与盘点损溢六类业务统计\n\n← 返回 AI 智能报表\n报表统计主题:\n1. 销售与毛利汇总 (sales_summary)\n2. 客户商品对比 (customer_product_comparison)\n3. 库存结存报表 (inventory)\n4. 客户往来余额 (customer_balances)\n5. 资金收退流水 (cash_flow)\n6. 盘点损益汇总 (inventory_loss)\n（期间发生额类，支持同期对比模式，禁止发送 pointAsOf）\n期间统计口径 (period.mode)\n本月至今对比上月同期 (mtd_previous)\n完整自然月度对比 (calendar_months)\n自定义日期期间 (custom)\n限定往来客户 (customerIds)\n全部客户\n限定商品品项 (productIds)\n全部商品\n限定仓库归属 (warehouseIds)\n全部仓库\n执行统计查询 (新快照)\n统计结果数据\n当前已载入 1 行\n查看事实依据来源\n重新生成快照\n快照ID: #5f4f4e3e\n生成时间: 2026-11-12 14:55:51\n数据截止 (asOf): 2026-11-12 14:55:51\n水印: 557d7464722dcfaae8a65fa9d7303f25758a15abd452a4274b2d25fbb9b4b66b\n时区: Asia/Shanghai\n本期区间:\n2026-11-01 至 2026-11-12\n本月未完结 (统计中)\n规范化主题: sales_summary\n期间模式: custom\n展开核对完整规范化条件 (JSON)\n统计期间\t订单笔数\t销售总额\t退货金额\t净销售额\t销售总成本\t退货成本信用\t销售毛利\t实际收款\t实际退款\n2026-11-01 至 2026-11-12\t0\t¥0.00\t-¥0.00\t¥0.00\t¥0.00\t¥0.00\t¥0.00\t+¥0.00\t-¥0.00"
+    },
+    {
+      "name": "company",
+      "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nempty-admin\n管理员\n系统设置与管理\n\n维护出库打印单据抬头、企业联系电话、发货地址、各型号打印模板与员工账号权限\n\n企业基本资料\n出库打印模板配置\n员工账号与权限\n公司资料信息\n数据版本: v2\n企业 / 门店全称\n该名称将作为所有销售配送单据的抬头主标题输出\n联系电话 (清空保存即可删除)\n经营 / 发货地址 (清空保存即可删除)\n保存修改"
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/v1/auth/session",
+      "status": 200,
+      "response": {
+        "user": null
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/auth/session",
+      "status": 200,
+      "response": {
+        "user": null
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "response": {
+        "user": {
+          "id": "d603e090-9c02-4e88-8e38-691a3eb25f20",
+          "loginName": "empty-admin",
+          "role": "admin",
+          "active": true,
+          "version": 1
+        }
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:46.952Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:46.952Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/products",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:48.109Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/products",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:48.109Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/customers",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:48.646Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/customers",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:48.647Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:49.176Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:49.176Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/products",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:49.182Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/products",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:49.182Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/orders",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:49.711Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/orders",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:49.711Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/customers",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.246Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/customers",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.247Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/customers",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.888Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/products",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.888Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.889Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/customers",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.891Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/warehouses",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.893Z"
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/products",
+      "status": 200,
+      "response": {
+        "items": [],
+        "nextCursor": null,
+        "asOf": "2026-11-12T06:55:50.894Z"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reports/query",
+      "status": 200,
+      "response": {
+        "id": "78816c0b-fe6a-4b79-8acc-ba572abbac7d",
+        "kind": "sales_summary",
+        "normalizedQuery": {
+          "kind": "sales_summary",
+          "limit": 50,
+          "period": {
+            "end": "2026-11-12T06:55:50.892Z",
+            "mode": "custom",
+            "start": "2026-10-31T16:00:00.000Z"
+          },
+          "filters": {},
+          "groupBy": []
+        },
+        "asOf": "2026-11-12T06:55:50.892Z",
+        "generatedAt": "2026-11-12T06:55:50.895Z",
+        "sourceWatermark": "2d998ae136d8b597e28cd2eece75a2d01024972da81a7182a4d38a10c48fc816",
+        "timezone": "Asia/Shanghai",
+        "currentPeriod": {
+          "end": "2026-11-12T06:55:50.892Z",
+          "start": "2026-10-31T16:00:00.000Z",
+          "incomplete": true
+        },
+        "baselinePeriod": null,
+        "nextCursor": null,
+        "rows": [
+          {
+            "periodEnd": "2026-11-12T06:55:50.892Z",
+            "orderCount": 0,
+            "grossProfit": "0.00",
+            "periodStart": "2026-10-31T16:00:00.000Z",
+            "refundAmount": "0.00",
+            "returnAmount": "0.00",
+            "receiptAmount": "0.00",
+            "netSalesAmount": "0.00",
+            "salesCostAmount": "0.00",
+            "grossSalesAmount": "0.00",
+            "returnCostCreditAmount": "0.00"
+          }
+        ]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reports/query",
+      "status": 200,
+      "response": {
+        "id": "257f3c7f-8004-4617-a291-489235c4e6cb",
+        "kind": "sales_summary",
+        "normalizedQuery": {
+          "kind": "sales_summary",
+          "limit": 50,
+          "period": {
+            "end": "2026-11-12T06:55:50.894Z",
+            "mode": "custom",
+            "start": "2026-10-31T16:00:00.000Z"
+          },
+          "filters": {},
+          "groupBy": []
+        },
+        "asOf": "2026-11-12T06:55:50.894Z",
+        "generatedAt": "2026-11-12T06:55:50.899Z",
+        "sourceWatermark": "a0961c0b2fac9ffa03ce9a99eda06feb0a9b83299605857fb4165c74c9744bfa",
+        "timezone": "Asia/Shanghai",
+        "currentPeriod": {
+          "end": "2026-11-12T06:55:50.894Z",
+          "start": "2026-10-31T16:00:00.000Z",
+          "incomplete": true
+        },
+        "baselinePeriod": null,
+        "nextCursor": null,
+        "rows": [
+          {
+            "periodEnd": "2026-11-12T06:55:50.894Z",
+            "orderCount": 0,
+            "grossProfit": "0.00",
+            "periodStart": "2026-10-31T16:00:00.000Z",
+            "refundAmount": "0.00",
+            "returnAmount": "0.00",
+            "receiptAmount": "0.00",
+            "netSalesAmount": "0.00",
+            "salesCostAmount": "0.00",
+            "grossSalesAmount": "0.00",
+            "returnCostCreditAmount": "0.00"
+          }
+        ]
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/reports/query",
+      "status": 200,
+      "response": {
+        "id": "5f4f4e3e-35d7-4e9f-a903-8c828466ef38",
+        "kind": "sales_summary",
+        "normalizedQuery": {
+          "kind": "sales_summary",
+          "limit": 50,
+          "period": {
+            "end": "2026-11-12T06:55:51.375Z",
+            "mode": "custom",
+            "start": "2026-10-31T16:00:00.000Z"
+          },
+          "filters": {},
+          "groupBy": []
+        },
+        "asOf": "2026-11-12T06:55:51.375Z",
+        "generatedAt": "2026-11-12T06:55:51.378Z",
+        "sourceWatermark": "557d7464722dcfaae8a65fa9d7303f25758a15abd452a4274b2d25fbb9b4b66b",
+        "timezone": "Asia/Shanghai",
+        "currentPeriod": {
+          "end": "2026-11-12T06:55:51.375Z",
+          "start": "2026-10-31T16:00:00.000Z",
+          "incomplete": true
+        },
+        "baselinePeriod": null,
+        "nextCursor": null,
+        "rows": [
+          {
+            "periodEnd": "2026-11-12T06:55:51.375Z",
+            "orderCount": 0,
+            "grossProfit": "0.00",
+            "periodStart": "2026-10-31T16:00:00.000Z",
+            "refundAmount": "0.00",
+            "returnAmount": "0.00",
+            "receiptAmount": "0.00",
+            "netSalesAmount": "0.00",
+            "salesCostAmount": "0.00",
+            "grossSalesAmount": "0.00",
+            "returnCostCreditAmount": "0.00"
+          }
+        ]
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/company",
+      "status": 200,
+      "response": {
+        "name": "隔离空业务配置",
+        "phone": "",
+        "address": "",
+        "version": 2
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/company",
+      "status": 200,
+      "response": {
+        "name": "隔离空业务配置",
+        "phone": "",
+        "address": "",
+        "version": 2
+      }
+    }
+  ]
+}

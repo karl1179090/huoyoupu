@@ -1,0 +1,179 @@
+{
+  "capturedBy": "existing A E2E production browser test; independently executed",
+  "baseline": "docs/verification/build-web-inventory-v1/frontend-a-final-baseline.json",
+  "runLog": "docs/verification/build-web-inventory-v1/frontend-a-independent-final.log",
+  "files": [
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-create-scroll-owner-end-desktop.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-create-scroll-end-desktop.png",
+      "scene": "Create,8 lines,scroll end",
+      "viewportCss": [
+        1280,
+        900
+      ],
+      "sourceMtime": "2026-11-12T03:04:48.898784+08:00",
+      "bytes": 164020,
+      "sha256": "3d417cb092e78762006e8ff0642195c1f5ba8f952215e9198832e1d182b63c19",
+      "imagePixels": [
+        1280,
+        900
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-create-bottom-bar-desktop.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-create-bottom-bar-desktop.png",
+      "scene": "Create,8 lines,live quote",
+      "viewportCss": [
+        1280,
+        900
+      ],
+      "sourceMtime": "2026-11-12T03:04:48.927622+08:00",
+      "bytes": 164157,
+      "sha256": "dfdc630fae4bb9f8c06c8824435f2ac0623678ce4dcb07e3b98397c903439525",
+      "imagePixels": [
+        1280,
+        900
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-detail-draft-bottom-bar-desktop.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-detail-draft-bottom-bar-desktop.png",
+      "scene": "Draft Detail,4 lines",
+      "viewportCss": [
+        1280,
+        900
+      ],
+      "sourceMtime": "2026-11-12T03:04:48.994341+08:00",
+      "bytes": 169182,
+      "sha256": "7d00c60b7ac374dfd05f170ffade50fa6ab36806d00e368af5fc4fbb67f59b07",
+      "imagePixels": [
+        1280,
+        900
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-edit-bottom-bar-desktop.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-edit-bottom-bar-desktop.png",
+      "scene": "Edit,4 lines",
+      "viewportCss": [
+        1280,
+        900
+      ],
+      "sourceMtime": "2026-11-12T03:04:50.023485+08:00",
+      "bytes": 153937,
+      "sha256": "584ed0d63096114a0a9261660242bd68e6d8a97a4860b0ea3c177a3d900f90c4",
+      "imagePixels": [
+        1280,
+        900
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-create-scroll-owner-end-mobile-400.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-create-scroll-end-mobile-400.png",
+      "scene": "Create,6 lines,scroll end",
+      "viewportCss": [
+        400,
+        750
+      ],
+      "sourceMtime": "2026-11-12T03:04:53.051913+08:00",
+      "bytes": 65079,
+      "sha256": "b9764cfe0aaae1a4e6581ba1fd6d0d36bdced6e4ffec145704592bcc4797ae73",
+      "imagePixels": [
+        400,
+        750
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-create-bottom-bar-mobile-400.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-create-bottom-bar-mobile-400.png",
+      "scene": "Create,6 lines,live quote",
+      "viewportCss": [
+        400,
+        750
+      ],
+      "sourceMtime": "2026-11-12T03:04:53.084654+08:00",
+      "bytes": 65173,
+      "sha256": "2fcf9bed24a5d433459e557a6333fb6392572376b1fe7520dc24778d57b05198",
+      "imagePixels": [
+        400,
+        750
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-detail-draft-bottom-bar-mobile-400.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-detail-draft-bottom-bar-mobile-400.png",
+      "scene": "Draft Detail,4 lines",
+      "viewportCss": [
+        400,
+        750
+      ],
+      "sourceMtime": "2026-11-12T03:04:53.166641+08:00",
+      "bytes": 71091,
+      "sha256": "9da14a082ac4d004600e054e6b995ec8ace79a12bd55e7ffc405a9811780065d",
+      "imagePixels": [
+        400,
+        750
+      ],
+      "reviewedByAcceptance": true
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-edit-bottom-bar-mobile-400.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-edit-bottom-bar-mobile-400.png",
+      "scene": "Edit,4 lines",
+      "viewportCss": [
+        400,
+        750
+      ],
+      "sourceMtime": "2026-11-12T03:04:53.314778+08:00",
+      "bytes": 59534,
+      "sha256": "86eabd0c2749ca9fc557a78f50089534e2adee36788cc597fd738508d013586c",
+      "imagePixels": [
+        400,
+        750
+      ],
+      "reviewedByAcceptance": true,
+      "limitation": "Filled 4 lines but quote was still loading/0.00 in captured frame; layout evidence only, not valid quote/submission evidence."
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-create-bottom-bar-mobile-350.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-edit-bottom-bar-mobile-350.png",
+      "scene": "Edit,4 lines; source filename misleadingly said create",
+      "viewportCss": [
+        350,
+        667
+      ],
+      "sourceMtime": "2026-11-12T03:04:53.363055+08:00",
+      "bytes": 41172,
+      "sha256": "b2dcd27f96889b6953c282c0aee1f0b1c6d730781308048ca01ca738fab1cc69",
+      "imagePixels": [
+        350,
+        667
+      ],
+      "reviewedByAcceptance": true,
+      "limitation": "Filled 4 lines but quote was still loading/0.00 in captured frame; layout evidence only, not valid quote/submission evidence."
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-detail-after-return-revision.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/order-detail-after-return-revision.png",
+      "scene": "After return/revision,9 editable+3 protected",
+      "viewportCss": [
+        1280,
+        900
+      ],
+      "sourceMtime": "2026-11-12T03:04:56.446540+08:00",
+      "bytes": 148444,
+      "sha256": "924a37a56c625b21d68a97f078a127981f38e95791ca4e0160721b6637701122",
+      "imagePixels": [
+        1280,
+        900
+      ],
+      "reviewedByAcceptance": true
+    }
+  ]
+}

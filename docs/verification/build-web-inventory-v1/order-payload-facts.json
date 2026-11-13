@@ -1,0 +1,57 @@
+{
+  "shortage": {
+    "httpStatus": 409,
+    "code": "INSUFFICIENT_STOCK",
+    "message": "所选仓库库存不足或需要补选批次",
+    "requestId": "req-u",
+    "retryable": false
+  },
+  "invalidMoney": {
+    "httpStatus": 400,
+    "code": "INVALID_REQUEST",
+    "message": "请求不符合接口约定",
+    "requestId": "req-v",
+    "retryable": false
+  },
+  "validQuote": {
+    "httpStatus": 200,
+    "subtotalAmount": "10.00",
+    "discountAmount": "1.00",
+    "totalAmount": "9.00",
+    "stockReserved": false
+  },
+  "versions": {
+    "confirmed": {
+      "version": 2,
+      "revisionNo": 2
+    },
+    "delivered": {
+      "version": 3,
+      "revisionNo": 2
+    },
+    "external": {
+      "version": 4,
+      "revisionNo": 3
+    },
+    "staleError": {
+      "code": "VERSION_CONFLICT",
+      "message": "订单已变化，请刷新",
+      "requestId": "req-12",
+      "retryable": false,
+      "details": {
+        "expectedVersion": 3,
+        "actualVersion": 4
+      }
+    },
+    "refreshed": {
+      "version": 5,
+      "revisionNo": 4
+    }
+  },
+  "command": "node --conditions=development --import tsx --test apps/api/test/order-payload-boundaries.db.test.ts",
+  "pass": 1,
+  "fail": 0,
+  "exitCode": 0,
+  "scope": "Own isolated PG/API only, no dev/Mini/browser",
+  "inventoryAndReceivableValuesUnchanged": true
+}

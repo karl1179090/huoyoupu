@@ -1,0 +1,137 @@
+{
+  "desktop": {
+    "width": 1280,
+    "root": 1280,
+    "body": 1280,
+    "title": "订单 XS49289CCEACE44432BDDDE9AD1140616A",
+    "actions": [
+      {
+        "text": "更正改单",
+        "rect": {
+          "x": 254,
+          "y": 80,
+          "width": 104,
+          "height": 35.5,
+          "top": 80,
+          "right": 358,
+          "bottom": 115.5,
+          "left": 254
+        }
+      },
+      {
+        "text": "部分退货",
+        "rect": {
+          "x": 366,
+          "y": 80,
+          "width": 82,
+          "height": 35.5,
+          "top": 80,
+          "right": 448,
+          "bottom": 115.5,
+          "left": 366
+        }
+      },
+      {
+        "text": "确认已配送",
+        "rect": {
+          "x": 456,
+          "y": 80,
+          "width": 117,
+          "height": 35.5,
+          "top": 80,
+          "right": 573,
+          "bottom": 115.5,
+          "left": 456
+        }
+      },
+      {
+        "text": "作废订单",
+        "rect": {
+          "x": 581,
+          "y": 83.75,
+          "width": 90,
+          "height": 28,
+          "top": 83.75,
+          "right": 671,
+          "bottom": 111.75,
+          "left": 581
+        }
+      },
+      {
+        "text": "打印配送单",
+        "rect": {
+          "x": 679,
+          "y": 80.75,
+          "width": 115,
+          "height": 34,
+          "top": 80.75,
+          "right": 794,
+          "bottom": 114.75,
+          "left": 679
+        }
+      }
+    ],
+    "text": "货友铺\n在线进销存系统\n销售开单\n订单管理\n打印单据\n商品资料\n库存与批次\n客户与价格\n往来与结算\n经营报表\nAI 智能统计\n系统设置\nadmin\n管理员\n← 返回列表\n订单 XS49289CCEACE44432BDDDE9AD1140616A\n已确认\n版本 v2\n创建时间: 2026-11-12 15:05:35\n更正改单\n部分退货\n确认已配送\n作废订单\n打印配送单\n配送客户\nR128-d9a82170下降\n联系人: 虚构收货人 (—)\n地址: 虚构隔离地址\n订单金额\n¥12.00\n商品小计: ¥12.00 · 优惠: ¥0.00 · 抹零: ¥0.00\n履约与打印状态\n未配送\n未出纸\n核算成本与毛利 (管理员)\n成本: ¥6.00\n毛利: ¥6.00\n商品明细 (1)\n退货与返库记录 (0)\n版本历史 (2)\n#\t商品名称 / 规格\t出货仓\t销售单位\t销售数量\t基础数量\t成交单价\t小计金额\t已退基础量\t批次成本\t毛利\n1\t\nR128-d9a82170虚构商品\n\tR128-d9a82170隔离仓\t瓶\t6\t6\t¥2\t¥12.00\t0\t¥6.00\t¥6.00"
+  },
+  "employee": {
+    "actions": [
+      "打印配送单"
+    ],
+    "text": "货友铺\n在线进销存系统\n订单管理\n打印单据\ndetail-employee\n员工\n成本已隐藏\n← 返回列表\n订单 XS49289CCEACE44432BDDDE9AD1140616A\n已确认\n版本 v2\n创建时间: 2026-11-12 15:05:35\n打印配送单\n配送客户\nR128-d9a82170下降\n联系人: 虚构收货人 (—)\n地址: 虚构隔离地址\n订单金额\n¥12.00\n商品小计: ¥12.00 · 优惠: ¥0.00 · 抹零: ¥0.00\n履约与打印状态\n未配送\n未出纸\n商品明细 (1)\n版本历史 (2)\n#\t商品名称 / 规格\t出货仓\t销售单位\t销售数量\t基础数量\t成交单价\t小计金额\t已退基础量\n1\t\nR128-d9a82170虚构商品\n\tR128-d9a82170隔离仓\t瓶\t6\t6\t¥2\t¥12.00\t0",
+    "requests": [
+      {
+        "method": "GET",
+        "path": "/api/v1/auth/session"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/auth/session"
+      },
+      {
+        "method": "POST",
+        "path": "/api/v1/auth/login"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/revisions"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/revisions"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/revisions"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/print-data"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/print-jobs"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/revisions"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/print-data"
+      },
+      {
+        "method": "GET",
+        "path": "/api/v1/orders/49289cce-ace4-4432-bddd-e9ad1140616a/print-jobs"
+      }
+    ],
+    "preview": "货友铺\n在线进销存系统\n订单管理\n打印单据\ndetail-employee\n员工\n成本已隐藏\n← 返回单据\n销售配送单打印预览\n纸型: custom (横向)\n边距: 5mm\n可打印宽: 231mm\n模板版本: v1\n当前订单版本\n调起打印机 (Window Print)\n订单版本：\n当前最新版本 (v2)\n版本 v2 (确认销售) - 2026-11-12T07:05\n版本 v1 (创建草稿) - 2026-11-12T07:05\n出库模板：\n货友铺 销售商品配送单\n电话: — · 发货地址: —\n企业名称:\n—\n企业电话:\n—\n订单编号:\nXS49289CCEACE44432BDDDE9AD1140616A\n确认时间:\n2026-11-10 12:00:00\n客户名称:\nR128-d9a82170下降\n联系人:\n虚构收货人\n收货电话:\n—\n收货地址:\n虚构隔离地址\n商品名称\t规格型号\t发货仓库\t单位\t数量\t单价\t金额\n\nR128-d9a82170虚构商品\n\t\n—\n\t\nR128-d9a82170隔离仓\n\t\n瓶\n\t\n6\n\t\n¥2\n\t\n¥12.00\n商品总额: ¥12.00\n整单折扣优惠: -¥0.00\n减免抹零: -¥0.00\n应收合计: ¥12.00\n制单经办: _________________\n配送发货: _________________\n客户签收: _________________\n本单打印与重打历史日志 (0)\n刷新日志\n暂无打印请求记录"
+  }
+}

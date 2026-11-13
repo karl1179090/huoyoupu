@@ -1,0 +1,40 @@
+{
+  "sourceManifest": "fullstack-source-manifest-v3.json",
+  "sourceDrift": [],
+  "apiImage": "sha256:396b979111706257521878430d13d52319df85be5219b5ddc5bae3bd11d48233",
+  "webImage": "sha256:4bc68dcd58b3702296ddc32ec1808d7cef44af22812f7c45797122d3910c0a14",
+  "platform": "linux/arm64",
+  "strictCaIpSan": true,
+  "currentLeafSpkiRecomputed": true,
+  "indexStatus": 200,
+  "indexSha256": "0afe5a7f8b2a7131fe474cb702eabbd5c49b788843fd9bda76c7d9035832ceb0",
+  "assets": [
+    {
+      "path": "/assets/index-CJq6aE2t.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "1e8b68eecec60187e1fb49fa9ea3cee9af9f3a156cb7a05094088325dfc9a291",
+      "bytes": 659278
+    },
+    {
+      "path": "/assets/index-Cogy-3Ko.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "9a355a97405c6537d464dc3fa1d5d7d16f042d1ffdbedd21ce2a8da98ad4f519",
+      "bytes": 20927
+    }
+  ],
+  "browser": {
+    "pass": 2,
+    "fail": 0,
+    "skip": 0,
+    "exitCode": 0,
+    "durationMs": 11087.450958,
+    "zeroBusinessWritesAssertionReached": true,
+    "roleSwitchReloads": 0,
+    "restrictedEmployeeApiCalls": 0
+  },
+  "quoteProbe": "fullstack-quote-v3.json",
+  "quoteFingerprints": "fullstack-quote-v3-fingerprints.json",
+  "knownFrontendLimit": "Derived inheritance P1 remains unfixed; not covered by deployment smoke"
+}

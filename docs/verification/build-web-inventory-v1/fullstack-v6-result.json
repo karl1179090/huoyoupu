@@ -1,0 +1,59 @@
+{
+  "status": "v6 targeted isolated deployment validation passed; four services stopped",
+  "shippingManifest": "fullstack-source-manifest-v6.json",
+  "shippingFileCount": 146,
+  "changedFromV5": [
+    "apps/web/src/pages/sales/OrderDetailPage.tsx",
+    "apps/web/src/styles/index.css"
+  ],
+  "unchangedFromV5": 144,
+  "added": [],
+  "removed": [],
+  "apiBuildInputDriftFromV3": [],
+  "afterSmokeShippingDrift": [],
+  "standardDockerfileBuild": {
+    "firstExit": 1,
+    "firstFailure": "Docker Hub auth token connection reset before compilation",
+    "retryExit": 0,
+    "platform": "linux/arm64",
+    "command": "docker build --pull=false --platform linux/arm64 --target web -t huoyoupu-test-fullstack-2sm3fc3d-web-v6 ."
+  },
+  "apiImage": "sha256:396b979111706257521878430d13d52319df85be5219b5ddc5bae3bd11d48233",
+  "webImage": "sha256:f60f315873c5e2cd7205f08c7f25e13ea729a2471cd67f35553e3da6887c6425",
+  "actualContainerTags": [
+    "huoyoupu-test-fullstack-2sm3fc3d-api-v6",
+    "huoyoupu-test-fullstack-2sm3fc3d-web-v6"
+  ],
+  "strictCaIpSan": true,
+  "currentLeafSpkiRecomputed": true,
+  "indexStatus": 200,
+  "indexSha256": "5a95f3306a0cebee4cd8c975908cd9b749a4987d41826feadfa3a0003b7012df",
+  "assets": [
+    {
+      "path": "/assets/index-M4S5BUMC.js",
+      "bytes": 662848,
+      "sha256": "42b1ae82e215b1064fea83b67f54535774cfbacc5351bea4b5d96b9c41621685"
+    },
+    {
+      "path": "/assets/index-ChvEgnsV.css",
+      "bytes": 21423,
+      "sha256": "b866b23ee4836dde27f011f1081b8191a875c30fc572e7ba453d0dbc39421a67"
+    }
+  ],
+  "assetHashOrigin": "Copied from stopped actual v6 proxy /srv after successful HTTP asset assertions",
+  "tests": {
+    "pass": 2,
+    "fail": 0,
+    "skip": 0,
+    "exitCode": 0,
+    "durationMs": 9094.591416,
+    "nodeStaticMs": 84.839917,
+    "browserMs": 8716.605625,
+    "zeroBusinessWriteAssertionReached": true,
+    "roleSwitchReloads": 0,
+    "employeeRestrictedApiCalls": 0
+  },
+  "deploymentTestSha256": "d966e42018fd8791ffb235379121a597ca3a79276b158726ecbe6be9cf98e1e7",
+  "servicesStopped": true,
+  "historical90Baseline": "Original private per-file source baseline unavailable; no new 90-file recomputation claimed. v5 persisted result remains historical evidence."
+}

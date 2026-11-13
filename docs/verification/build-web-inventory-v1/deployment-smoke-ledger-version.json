@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-11T14:16:34.668127+00:00",
+  "sourceImageUnchanged": "sha256:8a3bb1ecc63c52c5664f3c4c8f9bbb9a240d1327721d257adf39f53877066d5a",
+  "scope": "Only test/notes changed to real customer ledger target; no production source change",
+  "files": {
+    "apps/web/test/deployment-browser-smoke.test.ts": "d966e42018fd8791ffb235379121a597ca3a79276b158726ecbe6be9cf98e1e7",
+    "apps/web/DEPLOYMENT_SMOKE_NOTES.md": "f0b1b9a21738692861622fc0ac26fa647adeef0321ff4f7472f9c9cdee148157"
+  },
+  "archive": "docs/verification/build-web-inventory-v1/deployment-smoke-ledger-fixture.tar.gz",
+  "archiveSha256": "17e23e0333ffc5e77cd7ed81ca6920cb4686a38743c194fee592d97f4f3e52f1"
+}

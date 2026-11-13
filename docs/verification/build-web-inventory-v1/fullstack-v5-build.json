@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-11T20:37:40.355570+00:00",
+  "status": "Build candidate only; no v5 service or browser smoke yet",
+  "manifest": "fullstack-source-manifest-v5.json",
+  "platform": "linux/arm64",
+  "api": {
+    "tag": "huoyoupu-test-fullstack-2sm3fc3d-api-v5",
+    "id": "sha256:396b979111706257521878430d13d52319df85be5219b5ddc5bae3bd11d48233",
+    "reusedV3Digest": true,
+    "apiBuildInputDrift": []
+  },
+  "web": {
+    "tag": "huoyoupu-test-fullstack-2sm3fc3d-web-v5",
+    "id": "sha256:f9a7a0502b1a023ded7b93b906ea418c883c2c2eef33baf9508a1aa696082e71",
+    "exitCode": 0,
+    "buildProcessSeconds": 9.82,
+    "jsAsset": "/assets/index-rmei_GfS.js",
+    "jsKilobytes": 662.68,
+    "cssAsset": "/assets/index-Cogy-3Ko.css",
+    "warning": "Existing Vite >500kB chunk warning; build succeeded"
+  },
+  "afterBuildSourceDrift": [],
+  "composeStatus": "Original four services remain Exited(0); no v5 config activation",
+  "oldV3V4TagsPreserved": true
+}

@@ -1,0 +1,75 @@
+{
+  "capturedAt": "2026-11-11T10:28:47.378946+08:00",
+  "files": [
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-a4.pdf",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/order-print-output-a4.pdf",
+      "bytes": 306029,
+      "mtime": "2026-11-11T10:20:41.637630+08:00",
+      "sha256": "727968ee238afc777930d5f13cd15de603dff6e847249cd5c86a4e731b146405"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-custom.pdf",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/order-print-output-custom.pdf",
+      "bytes": 296117,
+      "mtime": "2026-11-11T10:20:44.493793+08:00",
+      "sha256": "6c943539fbcf1787d67350e9c21d10422749a77daabd17ec566a6799179b8e95"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-a5-landscape.pdf",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/order-print-output-a5-landscape.pdf",
+      "bytes": 306633,
+      "mtime": "2026-11-11T10:20:44.258470+08:00",
+      "sha256": "83e24ce15cdcc11ab47005e0b982b87513cc281cfddad1fb82d2e7df6bcf3a0c"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-multipage.pdf",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/order-print-output-multipage.pdf",
+      "bytes": 362922,
+      "mtime": "2026-11-11T10:20:44.717777+08:00",
+      "sha256": "f5232707a7e7927485eaec45e819f07a90e62ac1631aaef3ce1661ac57d2deb7"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-503-fallback.png",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/ai-report-503-fallback.png",
+      "bytes": 101811,
+      "mtime": "2026-11-11T10:20:53.293214+08:00",
+      "sha256": "dbf4810b7a18d5f4638aa30aeb5db4c1650bee6060e703b6d753ef0d61b45be6"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-clarification.png",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/ai-report-clarification.png",
+      "bytes": 118296,
+      "mtime": "2026-11-11T10:20:50.526269+08:00",
+      "sha256": "09e3cf59e878e57dff93df322a2b1dd294f55e243309cc309abb89c8bbb5922e"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-mobile.png",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/ai-report-mobile.png",
+      "bytes": 91089,
+      "mtime": "2026-11-11T10:20:51.292788+08:00",
+      "sha256": "8da329f14f069550dcc23bd9f3575a08d464a3d9734375b81cb1734d10a58cce"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-desktop.png",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/ai-report-desktop.png",
+      "bytes": 81492,
+      "mtime": "2026-11-11T10:20:50.415002+08:00",
+      "sha256": "5c6b453e301b70218100250713d3399ddc94463cde605cb726f51fb716b69adb"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-answered.png",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/ai-report-answered.png",
+      "bytes": 164427,
+      "mtime": "2026-11-11T10:20:50.644131+08:00",
+      "sha256": "d66d5de450be734ded5dd659eeeea81d1df051551764e4b05013e32f14844af0"
+    },
+    {
+      "source": "apps/web/test/printing-reports-capture.ts",
+      "snapshot": "docs/verification/build-web-inventory-v1/c3-artifact-snapshot/printing-reports-capture.ts",
+      "bytes": 25904,
+      "mtime": "2026-11-11T10:25:38.221838+08:00",
+      "sha256": "323f3a7764eec398e97be109f9ce5c36dc546026a9d9baa752f4ed13c37e2e65"
+    }
+  ]
+}

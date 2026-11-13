@@ -1,0 +1,50 @@
+{
+  "name": "huoyoupu",
+  "version": "1.0.0",
+  "description": "货友铺：面向单商家的极简在线进销存系统，确认订单即扣库存、计成本与应收。",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "npm run build && npm run typecheck --workspaces --if-present",
+    "build": "npm run build:backend && npm run build:web",
+    "test": "npm run build && npm run test:unit && npm run test:db",
+    "test:unit": "tsx scripts/test-unit.ts",
+    "test:db": "tsx scripts/test-postgres.ts",
+    "db:migrate": "tsx packages/database/src/cli.ts",
+    "dev:api": "tsx watch --conditions=development apps/api/src/server.ts",
+    "admin:init": "tsx --conditions=development apps/api/src/modules/auth/initialize.ts",
+    "build:backend": "npm run build -w @huoyoupu/contracts && npm run build -w @huoyoupu/money && npm run build -w @huoyoupu/database && npm run build -w @huoyoupu/api",
+    "dev:web": "npm run dev -w @huoyoupu/web -- --host localhost",
+    "typecheck:web": "npm run typecheck -w @huoyoupu/web",
+    "build:web": "npm run build -w @huoyoupu/web",
+    "dev:fixture": "node --conditions=development --import tsx scripts/dev-api.ts"
+  },
+  "keywords": [
+    "inventory",
+    "erp",
+    "typescript",
+    "react",
+    "postgresql"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "26.6.6",
+    "typescript": "5.9.3",
+    "tsx": "4.23.15",
+    "fast-check": "4.10.2",
+    "@types/pg": "8.23.1"
+  },
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

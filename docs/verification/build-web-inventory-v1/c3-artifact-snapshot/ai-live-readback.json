@@ -1,0 +1,217 @@
+{
+  "checkedAt": "2026-11-11T02:29:58.521Z",
+  "reportId": "7fb7f162-cec2-4e68-9931-b7dd5e6d9892",
+  "reportStatus": 200,
+  "sourcesStatus": 200,
+  "sameSnapshotRepeatedRead": true,
+  "answeredSchemaValid": true,
+  "clarificationSchemaValid": true,
+  "report": {
+    "id": "7fb7f162-cec2-4e68-9931-b7dd5e6d9892",
+    "kind": "sales_summary",
+    "normalizedQuery": {
+      "kind": "sales_summary",
+      "limit": 50,
+      "period": {
+        "end": "2026-11-11T02:20:37.763Z",
+        "mode": "custom",
+        "start": "2026-10-31T16:00:00.000Z"
+      },
+      "filters": {},
+      "groupBy": []
+    },
+    "asOf": "2026-11-11T02:20:37.763Z",
+    "generatedAt": "2026-11-11T02:20:37.770Z",
+    "sourceWatermark": "5bc01debe97c6c1aa12a40d7ce478d503efca6a36e1e705eadab16a48243168d",
+    "timezone": "Asia/Shanghai",
+    "currentPeriod": {
+      "end": "2026-11-11T02:20:37.763Z",
+      "start": "2026-10-31T16:00:00.000Z",
+      "incomplete": true
+    },
+    "baselinePeriod": null,
+    "nextCursor": null,
+    "rows": [
+      {
+        "periodEnd": "2026-11-11T02:20:37.763Z",
+        "orderCount": 23,
+        "grossProfit": "403.00",
+        "periodStart": "2026-10-31T16:00:00.000Z",
+        "refundAmount": "0.00",
+        "returnAmount": "0.00",
+        "receiptAmount": "0.00",
+        "netSalesAmount": "486.00",
+        "salesCostAmount": "83.00",
+        "grossSalesAmount": "486.00",
+        "returnCostCreditAmount": "0.00"
+      }
+    ]
+  },
+  "sources": {
+    "items": [
+      {
+        "id": "08356fff-c3a4-48bb-bade-89f67be7c985",
+        "href": "/api/v1/orders/637778c0-0967-4c3c-b893-aa7ddbc6e359/revisions/08356fff-c3a4-48bb-bade-89f67be7c985",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:33:59.553Z"
+      },
+      {
+        "id": "0e9b5a35-8646-49b6-9e68-ec2b7f086f7d",
+        "href": "/api/v1/orders/87eac5cf-bd1a-4946-9956-b4bb4b589085/revisions/0e9b5a35-8646-49b6-9e68-ec2b7f086f7d",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:50:20.765Z"
+      },
+      {
+        "id": "2acef5c4-ae42-4eef-b23e-aac4296febd6",
+        "href": "/api/v1/orders/52e8276c-1c34-4b56-a7b8-e7667b4181f0/revisions/2acef5c4-ae42-4eef-b23e-aac4296febd6",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:06:13.180Z"
+      },
+      {
+        "id": "306fde01-ce8a-4d64-8507-250340bec728",
+        "href": "/api/v1/orders/802cf3dc-6c7f-43ee-8d16-711cc24d56ef/revisions/306fde01-ce8a-4d64-8507-250340bec728",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T02:08:42.054Z"
+      },
+      {
+        "id": "38f1d2c5-b3dc-435b-8d62-f63719c746af",
+        "href": "/api/v1/orders/78ac165b-ca7f-47df-849e-fbe2b6e2540f/revisions/38f1d2c5-b3dc-435b-8d62-f63719c746af",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T02:06:04.690Z"
+      },
+      {
+        "id": "397ade43-82ca-4eec-81e4-07fcba5e8b60",
+        "href": "/api/v1/orders/f8ff5850-e686-45c9-88b2-325bd21c0b83/revisions/397ade43-82ca-4eec-81e4-07fcba5e8b60",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T02:01:30.528Z"
+      },
+      {
+        "id": "46e8bf68-4e50-44ef-ab35-4efb7e93dafc",
+        "href": "/api/v1/orders/b19a3252-dd5c-46a1-8754-2c34f0270cbb/revisions/46e8bf68-4e50-44ef-ab35-4efb7e93dafc",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:34:05.838Z"
+      },
+      {
+        "id": "4ac130f5-9f29-44e8-8018-5ccdf89fd3ab",
+        "href": "/api/v1/orders/260d546f-97b0-44d1-89ab-a9a67a1b7887/revisions/4ac130f5-9f29-44e8-8018-5ccdf89fd3ab",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:48:10.405Z"
+      },
+      {
+        "id": "4ca8ad76-3590-4e2b-9786-c00535db0ebc",
+        "href": "/api/v1/orders/eaed20b3-bf85-435b-a35e-61b7336dec23/revisions/4ca8ad76-3590-4e2b-9786-c00535db0ebc",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:57:30.539Z"
+      },
+      {
+        "id": "56dfffa3-8dae-4d2f-aa9a-9c3078eba5e4",
+        "href": "/api/v1/orders/317b676b-1109-4d34-8880-6b29ad8bd8a8/revisions/56dfffa3-8dae-4d2f-aa9a-9c3078eba5e4",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:42:59.627Z"
+      },
+      {
+        "id": "5b33e898-26c2-4162-835b-525874dee9ea",
+        "href": "/api/v1/orders/68b69fb7-28dc-401c-b4a5-72724bf3765b/revisions/5b33e898-26c2-4162-835b-525874dee9ea",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T02:00:23.120Z"
+      },
+      {
+        "id": "6e53bcbb-3bba-42cb-a771-7cae6610ffaf",
+        "href": "/api/v1/orders/c84f656c-0ff8-4453-9632-4a8621a37f6e/revisions/6e53bcbb-3bba-42cb-a771-7cae6610ffaf",
+        "version": 2,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-10T16:35:40.134Z"
+      },
+      {
+        "id": "76bfa7e1-2d0e-4395-b56a-fc137927a6fc",
+        "href": "/api/v1/orders/0559da38-c480-46fc-a287-2bbc05f35bf6/revisions/76bfa7e1-2d0e-4395-b56a-fc137927a6fc",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:53:44.738Z"
+      },
+      {
+        "id": "993bf36c-6331-4fce-b1f6-b38930c1b1b9",
+        "href": "/api/v1/orders/6c5736f8-5251-431c-8f3e-72cfd2f8e771/revisions/993bf36c-6331-4fce-b1f6-b38930c1b1b9",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:00:44.160Z"
+      },
+      {
+        "id": "ae62770d-99cd-44e5-9423-f38c49bad08d",
+        "href": "/api/v1/orders/7dea843d-b333-420a-a8cd-4b7a46d4dcfc/revisions/ae62770d-99cd-44e5-9423-f38c49bad08d",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:21:01.142Z"
+      },
+      {
+        "id": "c04c60b8-c9ca-4396-b9ae-76dd4793a4c0",
+        "href": "/api/v1/orders/806a7b23-c50c-4852-a849-92b9f6be9200/revisions/c04c60b8-c9ca-4396-b9ae-76dd4793a4c0",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:16:58.920Z"
+      },
+      {
+        "id": "c1e090c1-8dfa-4e08-80c2-2defbf6a6fdd",
+        "href": "/api/v1/orders/14393669-8599-491b-8367-2d271f88bf25/revisions/c1e090c1-8dfa-4e08-80c2-2defbf6a6fdd",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T02:07:55.392Z"
+      },
+      {
+        "id": "d2fbc352-ee99-4e7a-9985-66f036ebb51d",
+        "href": "/api/v1/orders/3b95d9b4-d909-4ec6-86a2-717e7530d045/revisions/d2fbc352-ee99-4e7a-9985-66f036ebb51d",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:32:49.395Z"
+      },
+      {
+        "id": "d53fcb06-9213-41a4-8c53-14a0d208dde0",
+        "href": "/api/v1/orders/4428c576-28a0-4547-9408-c223bf8af010/revisions/d53fcb06-9213-41a4-8c53-14a0d208dde0",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:57:56.027Z"
+      },
+      {
+        "id": "e15cdfe5-110d-4fec-9d6b-2ea86fc7c1cb",
+        "href": "/api/v1/orders/bff2864c-0ca8-499d-86e4-1d73b8b54da8/revisions/e15cdfe5-110d-4fec-9d6b-2ea86fc7c1cb",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:38:19.011Z"
+      },
+      {
+        "id": "eee9096f-5c8f-4ddc-a7ca-cd8fac3fdfc7",
+        "href": "/api/v1/orders/9bf3b11f-7762-4edd-9d9b-af85311b1bf2/revisions/eee9096f-5c8f-4ddc-a7ca-cd8fac3fdfc7",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:47:44.967Z"
+      },
+      {
+        "id": "f663f562-f810-45bc-97e3-c2efcec4b1b6",
+        "href": "/api/v1/orders/6a00e580-baef-45fb-ae38-8e4e6e8379c8/revisions/f663f562-f810-45bc-97e3-c2efcec4b1b6",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T01:21:12.457Z"
+      },
+      {
+        "id": "f9abd865-0103-4bc1-acef-be7e7409f077",
+        "href": "/api/v1/orders/1d821f6a-3db1-4617-be4d-b2f0f1ec84ff/revisions/f9abd865-0103-4bc1-acef-be7e7409f077",
+        "version": 3,
+        "entityType": "order_revision",
+        "recordedAt": "2026-11-11T00:54:04.331Z"
+      }
+    ],
+    "nextCursor": null,
+    "asOf": "2026-11-11T02:20:37.763Z"
+  }
+}

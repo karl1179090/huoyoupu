@@ -1,0 +1,587 @@
+{
+  "capturedAt": "2026-11-11T12:41:02.692072+08:00",
+  "artifacts": [
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-company-profile-desktop.png",
+      "bytes": 88377,
+      "mtime": 1794366599.6341236,
+      "sha256": "ffa62d3c833160c8459135991520820e35587a44359d1fe3655d444c6e60f0eb"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-print-templates-desktop.png",
+      "bytes": 179601,
+      "mtime": 1794366602.2712047,
+      "sha256": "bade2be403aa272b7f0ede6372d891eb600d301bcb0fa85275ea63f835c72037"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-print-templates-mobile.png",
+      "bytes": 75732,
+      "mtime": 1794366601.1826572,
+      "sha256": "f9033d5e681a7792429e8a928eea18fe9ede30d5dd9d923aeb2343feef0baebb"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-users-desktop.png",
+      "bytes": 133761,
+      "mtime": 1794366603.1369786,
+      "sha256": "5e65e846c5206c99e5b90b89054578a1744a26998f072e36ee76053f4ca09f26"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-company-mobile.png",
+      "bytes": 63997,
+      "mtime": 1794366600.289523,
+      "sha256": "5b93e338968b41d03be78595c77f337fab07c205e5befa54b3690057aefad52e"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/product-list-mobile.png",
+      "bytes": 46273,
+      "mtime": 1794371837.5543177,
+      "sha256": "b33f1a5357a2cdb275f7eb56a86ea02dad156e23c303e0976aa11048e02a1e34"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-address-edit-desktop.png",
+      "bytes": 134191,
+      "mtime": 1794371841.9125316,
+      "sha256": "ce50ab8b310a231f55b57c503d82dca82f746f92494ada7447c7c56bd66bc0c6"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-list-desktop.png",
+      "bytes": 89119,
+      "mtime": 1794371844.2349572,
+      "sha256": "05ce5215521d3605a22fd7f10c65db7a0adff1c05b76d0dde1048ca350e27896"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/warehouse-list-desktop.png",
+      "bytes": 69368,
+      "mtime": 1794371847.4503694,
+      "sha256": "5c26adb34d1b62bb59bff1e0f146a8e28d6a8315b7689eea57085a3c03d9dd07"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/product-unit-edit-desktop.png",
+      "bytes": 121866,
+      "mtime": 1794371836.7467387,
+      "sha256": "25b8d2ca4778a57092fd0e17b9eb474448838aa19a75440bec3021dfa41f63c4"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/product-list-desktop.png",
+      "bytes": 85478,
+      "mtime": 1794371837.112076,
+      "sha256": "5e47e348dbd82473bbb863117397b8b2f5e85ae0311563aa6fdf3fca97a31a1d"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-price-rules-mobile.png",
+      "bytes": 66819,
+      "mtime": 1794371843.5588465,
+      "sha256": "ee674c25ee72bb74ff6ac008640fec2c23a83515144e6d96cb2af2afe9458b0c"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-price-rules-desktop.png",
+      "bytes": 134659,
+      "mtime": 1794371843.1041913,
+      "sha256": "7cefc2fbdbee9f24644979a2dcdf10eb2769b402b3af246fa9206d013054299c"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/warehouse-list-mobile.png",
+      "bytes": 42023,
+      "mtime": 1794371847.8852608,
+      "sha256": "bb0ec1d0833c12697b997fd759c96e33017a77a480a611457e71f48bfe96733c"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-needle-241x93.pdf",
+      "bytes": 337765,
+      "mtime": 1794366586.1073787,
+      "sha256": "faee3617c0bb33223e28a5f4619c465f49125fa525a34d52988c57dec504a662"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-needle-multipage.pdf",
+      "bytes": 390466,
+      "mtime": 1794366587.041908,
+      "sha256": "2433e32e7976b7a048a3a108b93f896f11d787663b723858a949716014db166f"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-a4.pdf",
+      "bytes": 307463,
+      "mtime": 1794366582.8297105,
+      "sha256": "0d6c5670582a3eeee24ded75096d8935007b81783052d118138c467e4460d18f"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-preview-mobile.png",
+      "bytes": 77374,
+      "mtime": 1794366583.5174534,
+      "sha256": "fc270cec76b79f0a10cc08d6f0799111f127350ba55269b98ae59b85061999e9"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-custom.pdf",
+      "bytes": 337765,
+      "mtime": 1794366586.1078558,
+      "sha256": "faee3617c0bb33223e28a5f4619c465f49125fa525a34d52988c57dec504a662"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-preview-desktop.png",
+      "bytes": 126470,
+      "mtime": 1794366582.8747852,
+      "sha256": "41365d031bedb2940f14180717dfe7d60caccfa6a60af575e51c747f2c452371"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-a5-landscape.pdf",
+      "bytes": 308071,
+      "mtime": 1794366586.51285,
+      "sha256": "c1a6bf3b5fdb4b077d0990ee4cd554cfc7382e07c3582b678a7065eab809fd20"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-multipage.pdf",
+      "bytes": 367632,
+      "mtime": 1794366586.7948487,
+      "sha256": "5b76b2e62802fb6f011f4ac6f6289a835c48d6f9ceaf09ec32a2dfcf4d6cbe2c"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-preview-needle-241x93.png",
+      "bytes": 140093,
+      "mtime": 1794366586.1550405,
+      "sha256": "04e54294eed55d0cbb39138355ed27fe8e3c8553c802954aba82d4cde3adf4ba"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-template-manager-desktop.png",
+      "bytes": 177826,
+      "mtime": 1794366584.6616414,
+      "sha256": "c56dcf9d028127a072cc53932414d3845c82836b2d8a763660bba1a7d324a6e9"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-batches-desktop.png",
+      "bytes": 204066,
+      "mtime": 1794361852.7564096,
+      "sha256": "119250fa693b4dd19bdbffc305b258bd8e4713a4e5fdb43739f245f1e1133894"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-balances-desktop.png",
+      "bytes": 87997,
+      "mtime": 1794361854.001584,
+      "sha256": "4c0c8cbf340c352d0fdd52f684383582c59da2adb7ffab871ca80ddfa019c2e7"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-receipts-desktop.png",
+      "bytes": 235492,
+      "mtime": 1794361854.6989777,
+      "sha256": "e87a7ae1aee4c457bd2f330a92ace6f7a842bd1c4459db61533faf61cb306421"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/receipt-create-desktop.png",
+      "bytes": 94341,
+      "mtime": 1794361856.0206435,
+      "sha256": "0b6da3932696d85d84af4eb0bb3b2b5e5f7390c9aee0e449c661bdb80d8d8c97"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/receipt-create-mobile.png",
+      "bytes": 69529,
+      "mtime": 1794361856.5681493,
+      "sha256": "59da5e5738248fe094f7a389a096e7a1d5cf1dcd204a3b10752c8e9e4be83cf8"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/stocktake-mobile.png",
+      "bytes": 86393,
+      "mtime": 1794361858.6363907,
+      "sha256": "d3c664c3af95f15a0eceb3b021d6f24a9c8e3630c451406b4a5713970a1ce2ac"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-batches-mobile.png",
+      "bytes": 90651,
+      "mtime": 1794361853.3073046,
+      "sha256": "192363179b402fd2f58f36c219892c661c7cdf97c822e90d38360b9bc8fc325f"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/stocktake-desktop.png",
+      "bytes": 151491,
+      "mtime": 1794361858.0905418,
+      "sha256": "3c03f0801e33bc51a4679875bd228471e2c8d42d04c6acc994754d72f4b44ece"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/customer-finance-mobile.png",
+      "bytes": 77677,
+      "mtime": 1794361859.9168713,
+      "sha256": "73b8ffb78b2b6c326d696c66574314edd279c023d58ad466a189a5e7eceaccf1"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/customer-finance-desktop.png",
+      "bytes": 177223,
+      "mtime": 1794361859.3799913,
+      "sha256": "ab361988b44b44c884395929200234c87693d4b1cbbe70aa3fa32b8825ced04d"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/statements-desktop.png",
+      "bytes": 94988,
+      "mtime": 1794361862.6993227,
+      "sha256": "5c1799d2eb357c5867bdfbfd2c646bf2a99a58db1f0f85fa5478015a8b418b50"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/cash-events-mobile.png",
+      "bytes": 78357,
+      "mtime": 1794361861.1850255,
+      "sha256": "8781c06ee0b490938495a98c2974d0c9b4147c380ef0908c6d328a96c2ca2408"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/cash-events-desktop.png",
+      "bytes": 210508,
+      "mtime": 1794361860.6464052,
+      "sha256": "5106490b246d390964a7fefe687998818c389fa7a44a83cbbbf3297178ebaeaf"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/customer-receipt-modal-desktop.png",
+      "bytes": 183331,
+      "mtime": 1794361861.5853002,
+      "sha256": "e2d36a9914ce570fd3c2f022f11f9ad18674243f9acade6ece6a84b2a3b80e1a"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/statements-mobile.png",
+      "bytes": 59685,
+      "mtime": 1794361863.2543416,
+      "sha256": "cbf2c26a493e19d9adef48d89c88f55e7c3d40c660b1d12949f162127f855c79"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/statement-detail-desktop.png",
+      "bytes": 161348,
+      "mtime": 1794361863.8874629,
+      "sha256": "f7a9583d984ff0e2a00fd2c0e685a28ed87bc2bc7a74b79dbfc94a4006c68ff5"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-503-fallback.png",
+      "bytes": 101811,
+      "mtime": 1794366597.289035,
+      "sha256": "dbf4810b7a18d5f4638aa30aeb5db4c1650bee6060e703b6d753ef0d61b45be6"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-sales-summary-desktop.png",
+      "bytes": 143564,
+      "mtime": 1794366588.5566502,
+      "sha256": "196cfd68ddd121f80b91048952734434bd201a4c8060fc6a1501659604100137"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-inventory-desktop.png",
+      "bytes": 192603,
+      "mtime": 1794366590.2962976,
+      "sha256": "e6a0e2bc6635ba7658667b2c97eb2a65bf6288a001460c3def3043285870bc1d"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-customer-product-desktop.png",
+      "bytes": 174709,
+      "mtime": 1794366589.4320445,
+      "sha256": "7bbc4b97db2cbd53dd7aac612ac38b841156aea837632fbc08d7b56f4c3e5fc7"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-cash-flow-desktop.png",
+      "bytes": 195298,
+      "mtime": 1794366591.1897047,
+      "sha256": "b9fafe797e15a457c64b1773487689351c3c3c4b6db49b944d111f328fca3775"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-clarification.png",
+      "bytes": 118293,
+      "mtime": 1794366592.8213923,
+      "sha256": "8495a59f954a059361bddcc5e3d9f32c3c4b9b9eafe2ad1168eb70a67c4bd369"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-mobile.png",
+      "bytes": 89370,
+      "mtime": 1794366593.631014,
+      "sha256": "82278140ab995758e35b58d649b54df3a3cc655ca7b181f5bd4a5a9f6c124495"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-mobile.png",
+      "bytes": 87933,
+      "mtime": 1794366591.8339307,
+      "sha256": "b7ecb5969af8ac7e118f809de27b186a7f7f8eb823c5722d775ad3db6606728f"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-desktop.png",
+      "bytes": 81492,
+      "mtime": 1794366592.7176168,
+      "sha256": "5c6b453e301b70218100250713d3399ddc94463cde605cb726f51fb716b69adb"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-answered.png",
+      "bytes": 164668,
+      "mtime": 1794366592.9624372,
+      "sha256": "ec26fc4f9ab26e77c73824545021b047d1184ac5308b779b0da45fa3b4d70291"
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/desktop-batch-preflight.png",
+      "bytes": 576181,
+      "mtime": 1794333315.9314055,
+      "sha256": "1e5cafb7534ce6ed2e6ee25ba4fc2a625765b84161225fb325a1a9befe1e9a66"
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-revision-snapshot.png",
+      "bytes": 129463,
+      "mtime": 1794371891.764197,
+      "sha256": "0021dfa2717315a8da364b8392dd47fb2d66c0027ae652a610b341a3555cf624"
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/mobile-batch-preflight.png",
+      "bytes": 159026,
+      "mtime": 1794332981.021572,
+      "sha256": "44b36dcfe05fda50cd99d6710597685ad6856f2096698cf6174949d75238e7af"
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/mobile-batch-400.png",
+      "bytes": 169916,
+      "mtime": 1794358409.1610456,
+      "sha256": "21dcf505ea31b97bbc3e0a17ab605b5475dbf9017b8a7d1ce617204f60c68bd7"
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/gemini-handoff.png",
+      "bytes": 249591,
+      "mtime": 1794327492.5695405,
+      "sha256": "bad86f9fe36511af93c2936bde3ec3a5c53e95b223f379f03b8e2b3b0b92877e"
+    },
+    {
+      "source": "docs/ui/build-web-inventory-v1/implementation/order-edit-customer-accounts.png",
+      "bytes": 148085,
+      "mtime": 1794371891.9149237,
+      "sha256": "f431e1308281ca312b54eb8983c7625ef376c3906fc9d8e0a3577cc5a84de5fa"
+    }
+  ],
+  "code": [
+    {
+      "path": "apps/web/src/App.tsx",
+      "sha256": "d8bb945f05786bc091cf021a3f4d526b7dd35666b9c347d9c30a48fe030b6778"
+    },
+    {
+      "path": "apps/web/src/api/client.ts",
+      "sha256": "0a91b3fd5d6cffb9b1897b1d0c2540df4c6c2b8d2f52612356a940459bae0e09"
+    },
+    {
+      "path": "apps/web/src/api/types.ts",
+      "sha256": "65d774248d6689be47148754cb77169b80b1657ba869e9220d8b08df4fbd0d18"
+    },
+    {
+      "path": "apps/web/src/components/icons/index.tsx",
+      "sha256": "fb8bfa041300e92438fcfb070cbeee6af10a0fe878bcb1f87d300006823ef903"
+    },
+    {
+      "path": "apps/web/src/components/layout/AppLayout.tsx",
+      "sha256": "1b908f0d03869d4c64a26b37202c5afa9dd7211cc4474cd24ff1b02b7f422fb1"
+    },
+    {
+      "path": "apps/web/src/context/AuthContext.tsx",
+      "sha256": "604b0c08e87876ccab13b4826e88f43472db815625405e1fd5837f21aafdef05"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "63d3d4e9bb40c7709aa2c271d8619c05b18085e36db7870546a2526f381e8562"
+    },
+    {
+      "path": "apps/web/src/navigation.ts",
+      "sha256": "0e81ae2cb3415bba9797d56a40abc3bd3632045cace03f2a827c94b748c26ab1"
+    },
+    {
+      "path": "apps/web/src/pages/auth/LoginPage.tsx",
+      "sha256": "7dfec155a02aaed5e4fbcd59429561a6be76bbb14c4f4381e6ef877fbac2eae0"
+    },
+    {
+      "path": "apps/web/src/pages/catalog/CustomerListPage.tsx",
+      "sha256": "e44c3a11f9b9fadabf019c20b8ce2d7813b28500a13d95f4bf0f8fa93f7cbb20"
+    },
+    {
+      "path": "apps/web/src/pages/catalog/ProductListPage.tsx",
+      "sha256": "350e3c7b1d779e2914416bc08b4dede79bfd7b39f5c63123f91bf58b666b7c73"
+    },
+    {
+      "path": "apps/web/src/pages/catalog/WarehouseListPage.tsx",
+      "sha256": "f6ca0040b6247541c0051e39c9570c0de6355c5ac9fe8674f5b20469261a97e4"
+    },
+    {
+      "path": "apps/web/src/pages/finance/CashEventsPage.tsx",
+      "sha256": "f533b40218c0a0eec31fd3921ae0af6e065c4272d9df7e0ce46081b4a12a12d9"
+    },
+    {
+      "path": "apps/web/src/pages/finance/CustomerFinancePage.tsx",
+      "sha256": "3d54b09a583ffd796914f409ce7a27795195ecd580f0f4cdb0716df4c9828ca3"
+    },
+    {
+      "path": "apps/web/src/pages/finance/StatementsPage.tsx",
+      "sha256": "dc0eb0df70b305edef89ab7199897851df02ccea5aa2b6771636f00d959ef273"
+    },
+    {
+      "path": "apps/web/src/pages/finance/finance.css",
+      "sha256": "abf0cf5497d589a02e972e6eabaafb9427e783e2c86c59e2a5fab8bdcc9b2f59"
+    },
+    {
+      "path": "apps/web/src/pages/finance/financeLogic.ts",
+      "sha256": "2ea783b7568fec47eaa5812c10e055f15f6a5b70c89610a6dfc45483f1a4276d"
+    },
+    {
+      "path": "apps/web/src/pages/inventory/InventoryListPage.tsx",
+      "sha256": "68bd82f9f253ad1abaf5d76ac71180b464b18696503a8fa95e80b4fc6316ec40"
+    },
+    {
+      "path": "apps/web/src/pages/inventory/ReceiptCreatePage.tsx",
+      "sha256": "f690f08788bf76c3054a5ac9fc62544777da2bcd0142717c61031eca460f7b75"
+    },
+    {
+      "path": "apps/web/src/pages/inventory/StocktakePage.tsx",
+      "sha256": "463832140a76749606e8e5b6c4236321106e84308a55402fbae0a46868655d4a"
+    },
+    {
+      "path": "apps/web/src/pages/inventory/inventory.css",
+      "sha256": "014f71337dd9c3a73a6820930de38d58a66e29dc1b78f9cc87bfe12726e948f9"
+    },
+    {
+      "path": "apps/web/src/pages/inventory/inventoryLogic.ts",
+      "sha256": "4e6ae456ef2c297da4079b6e0268c83da39b9a0d518fb0b074b15bd479bebc86"
+    },
+    {
+      "path": "apps/web/src/pages/printing/OrderPrintPreview.tsx",
+      "sha256": "acf45c320b799f87bff3ed1d0989430ad15951d97d38d89c9047926c73dccaaa"
+    },
+    {
+      "path": "apps/web/src/pages/printing/PrintTemplateManager.tsx",
+      "sha256": "a558e50a5944291673d2967c815b4b6ea68f15413c9052d2404dabc30b88d0a8"
+    },
+    {
+      "path": "apps/web/src/pages/printing/printConfigLogic.ts",
+      "sha256": "a2ab4c819f46919d952db647f7617e354eba240016a35168beb78d6a63a432b0"
+    },
+    {
+      "path": "apps/web/src/pages/printing/printing.css",
+      "sha256": "f14aea5a50898beada1172403c766855fae98d82ae83734011f105c7946f1eff"
+    },
+    {
+      "path": "apps/web/src/pages/reports/AiReportPage.tsx",
+      "sha256": "78a6e910adec891157c0c866cf4532fababba83871690e7a690be19730d3183f"
+    },
+    {
+      "path": "apps/web/src/pages/reports/ReportsPage.tsx",
+      "sha256": "fa5d8f92cf0b9f69a91259fc25ef89bcc5ee8876a5973eea1b685a002f1df95f"
+    },
+    {
+      "path": "apps/web/src/pages/reports/reportHelpers.tsx",
+      "sha256": "eee38fbf1689e0403556f918055fc5b57369b63b9d5f7baf812b5ec1044e4018"
+    },
+    {
+      "path": "apps/web/src/pages/reports/reports.css",
+      "sha256": "55e9c43efbc6ccf86b9e12db8d225c849dc6cae4475165b2a7f54d129dc5920a"
+    },
+    {
+      "path": "apps/web/src/pages/sales/OrderCreatePage.tsx",
+      "sha256": "5a50b1b52cf40ab84f998a23b37ce331c8adc166a12047ac0f7565bfe8aba882"
+    },
+    {
+      "path": "apps/web/src/pages/sales/OrderDetailPage.tsx",
+      "sha256": "6151a0d7a2774941888ec24b3a03016cc6a595ebb9054cae58ea31c89a707b53"
+    },
+    {
+      "path": "apps/web/src/pages/sales/OrderEditPage.tsx",
+      "sha256": "d7cf6348924a12aeeb50d6053b22bb722ec11d584e602a858d114ca9550ffab1"
+    },
+    {
+      "path": "apps/web/src/pages/sales/OrderListPage.tsx",
+      "sha256": "5affa07512a78d8b5dce508e248adb00eb01c9aabcf800a9b01c87d4672351e5"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/BatchProductPicker.tsx",
+      "sha256": "d9e7b67abe8cb32c0a5729ba31f08826458567bc10620c236b322d555d43a93d"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/CustomerPickerModal.tsx",
+      "sha256": "73f1c969363837c41e4fa4412d39fe2c600b12e06e399ad3a8b9a5296bcad053"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/OrderLineEditor.tsx",
+      "sha256": "759b662185ca5794d1be46c3dbd9d131863d75e8975e8d067d2d5b1978058358"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/OrderQuoteSummary.tsx",
+      "sha256": "1e152ad10d14ace63681b530b27a76a98d19c054132aead202ac5788eaedc625"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/OrderReturnModal.tsx",
+      "sha256": "3eb3e565900911e4c59efc2260b2da6c228221f44cb315a5d9d4d34a20b774fb"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/RestockModal.tsx",
+      "sha256": "5928eaea81818c2df571ab571118c12a42465d5675885066edc94c549b998720"
+    },
+    {
+      "path": "apps/web/src/pages/sales/components/batchPickerLogic.ts",
+      "sha256": "881caa067812d431ff5e5ec52edd061e150217547862e1e83388d8c3776a010e"
+    },
+    {
+      "path": "apps/web/src/pages/settings/CompanySettingsPage.tsx",
+      "sha256": "aba2b52273e5679a871948fca7de3eb658df7e9abbe64290c49d938ebfc9d6cd"
+    },
+    {
+      "path": "apps/web/src/pages/settings/UsersPage.tsx",
+      "sha256": "899e5c695a676ac24391c1191f3dd881fa8a903c7884abfeab716d5f03bde325"
+    },
+    {
+      "path": "apps/web/src/pages/settings/settings.css",
+      "sha256": "3bead566df62b0a2babc1746d5f3863eb90e9cfd33f2033ea2ebe87f650568a0"
+    },
+    {
+      "path": "apps/web/src/styles/index.css",
+      "sha256": "dd3fb6f9d13fba29e6f9f65e19cd4d146b616c21b63268dad4b16cf29d7cf394"
+    },
+    {
+      "path": "apps/web/test/agent-a-e2e-regression.test.ts",
+      "sha256": "02dda0e6265ff3b9e73d9b6289ca263aef9bb69255bbe2581d962d375b139be0"
+    },
+    {
+      "path": "apps/web/test/agent-a-workflow.test.ts",
+      "sha256": "157bd19a004295b6f9f3f635f1b145ffbd9e4072d2009e1ea9ebdfbfad18ff01"
+    },
+    {
+      "path": "apps/web/test/batch-session-regression.test.ts",
+      "sha256": "439b08c5d74487c6138232ef1b3710d24afc6362f6426be58d658b9160b37dea"
+    },
+    {
+      "path": "apps/web/test/catalog-browser.test.ts",
+      "sha256": "5f9119cf022c4f5c7c42df7e2d09261287f28bc76a831eb7d6478679c2f79002"
+    },
+    {
+      "path": "apps/web/test/catalog-logic-workflow.test.ts",
+      "sha256": "c92f18ae4a68ca1265875a8f4e362e4cd27f4e0ffdb1b69334e657b47e9e41fb"
+    },
+    {
+      "path": "apps/web/test/deployment-browser-smoke.test.ts",
+      "sha256": "bb07501ff496674c7018b27da9c1920ef26f6a48ce6c91e64cbbeed99154e3fd"
+    },
+    {
+      "path": "apps/web/test/finance-logic.test.ts",
+      "sha256": "785972b5df127bc3c934a006ac1a8e70164cc778685dd2f534b13f6f84a1a188"
+    },
+    {
+      "path": "apps/web/test/inventory-capture-screenshots.ts",
+      "sha256": "92ef704eedf54f2d8266dd151f8fdc61b01c4aef295084d43c65b64d72f0b3d4"
+    },
+    {
+      "path": "apps/web/test/inventory-finance-api.test.ts",
+      "sha256": "6bf8aeacc09d23b06b8458365f05be62768d00c932550574b929e86698ce0a37"
+    },
+    {
+      "path": "apps/web/test/inventory-finance-browser.test.ts",
+      "sha256": "8c2f6bc76815e24b24ddd5823251f4abbcb1709228deda9e9cfdd3465600f377"
+    },
+    {
+      "path": "apps/web/test/inventory-logic.test.ts",
+      "sha256": "01f0ba923b53dffa758b162840630bcd6e88c717665c7994bf1f10530376903e"
+    },
+    {
+      "path": "apps/web/test/live-api-workflow.test.ts",
+      "sha256": "ac160c3aa01b735e0a7a194d7f4df9dcba337b251ead2e67610e64f4717ff548"
+    },
+    {
+      "path": "apps/web/test/printing-reports-capture.ts",
+      "sha256": "6f37d304a295a2e26ce92f5c5589587e819cb741200205952720940796cdf346"
+    },
+    {
+      "path": "apps/web/test/printing-workflow.test.ts",
+      "sha256": "2af03632a36c3c0dc9e39dc083c7082205a413056a1692a9de0306486da1619b"
+    },
+    {
+      "path": "apps/web/test/reports-workflow.test.ts",
+      "sha256": "64ff09dcfbc84dca4343147a6a49a73ae84abe38ef01a112032e99e1545a0586"
+    },
+    {
+      "path": "apps/web/test/settings-workflow.test.ts",
+      "sha256": "1af11deddbfd1da2906383084ea2a6e38a91ff4dc039c30af02a231bc49c3986"
+    }
+  ]
+}

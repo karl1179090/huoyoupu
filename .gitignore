@@ -1,0 +1,31 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Backend build output and local secrets
+**/dist/
+.env
+.env.*
+!.env.example
+infra/secrets/
+backups/
+*.dump
+*.dump.partial
+
+# Raw verification run logs stay local; readable reports and evidence images are committed.
+docs/verification/**/*.log
+docs/verification/**/*.tap.txt
+
+# Local agent scratch and code index state
+.scratch/
+.codegraph/
+.agents/
+.claude/
+
+# Rejected design draft (kept locally only); see docs/ui/build-web-inventory-v1/gemini-handoff.md
+docs/ui/build-web-inventory-v1/v3/

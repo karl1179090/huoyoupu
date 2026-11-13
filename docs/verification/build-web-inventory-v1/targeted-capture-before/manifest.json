@@ -1,0 +1,55 @@
+{
+  "at": "2026-11-11T22:05:47.864607+08:00",
+  "files": [
+    {
+      "path": "apps/web/src/pages/printing/screenshots/order-print-output-needle-241x93.pdf",
+      "sha256": "ff755f30940ee407a28e61fa3c5a8707bed1b631699f48ec7ac1c18d76f3022d",
+      "mtime": 1794372097.910441
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/order-print-output-needle-multipage.pdf",
+      "sha256": "55530c9806ddaaf99fd9a560cf2d70224c7fd24db9db36173ad80424eef9c6d3",
+      "mtime": 1794372098.6990256
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/order-print-output-a4.pdf",
+      "sha256": "2947e908985a4eb690f019755c7db8cc641104091ed76fb54d85c6399efefb35",
+      "mtime": 1794372094.6640568
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/printing-preview-mobile.png",
+      "sha256": "c4795a6548ff83d9a5ca4b19dd936ea774cb7f641737f3c458d9ce4b7e504973",
+      "mtime": 1794372095.347316
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/order-print-output-custom.pdf",
+      "sha256": "ff755f30940ee407a28e61fa3c5a8707bed1b631699f48ec7ac1c18d76f3022d",
+      "mtime": 1794372097.9115562
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/printing-preview-desktop.png",
+      "sha256": "5899fb627fd12b621165a371963eca8f0d7b914d181c48a42fb406678ced8d72",
+      "mtime": 1794372094.6894636
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/order-print-output-a5-landscape.pdf",
+      "sha256": "73ddf92872ab9fd27d47aa9ebe086b6e37a4db526c049d8ef64807a8d98bb66a",
+      "mtime": 1794372098.27436
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/order-print-output-multipage.pdf",
+      "sha256": "e8093073eeacd2324d55508b7a1f8a390e25a0b7eea18794fdbaa60b031201e9",
+      "mtime": 1794372098.4820187
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/printing-preview-needle-241x93.png",
+      "sha256": "6a384e1782f63fb51c00f1c0bf0cfb529f21ddba88fbfd4617a313cf7b67a1db",
+      "mtime": 1794372097.962749
+    },
+    {
+      "path": "apps/web/src/pages/printing/screenshots/printing-template-manager-desktop.png",
+      "sha256": "c0fc85c3398446342c8ffeac2eebbfee1e89f1b04ae837f0f5a93ce5eced23aa",
+      "mtime": 1794372096.4762998
+    }
+  ]
+}

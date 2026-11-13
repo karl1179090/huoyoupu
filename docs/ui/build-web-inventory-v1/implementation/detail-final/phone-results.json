@@ -1,0 +1,210 @@
+{
+  "order": {
+    "id": "49289cce-ace4-4432-bddd-e9ad1140616a",
+    "orderNo": "XS49289CCEACE44432BDDDE9AD1140616A",
+    "status": "confirmed",
+    "version": 2,
+    "revisionId": "11e3af9d-62df-4473-9340-52fc11d9b18e",
+    "revisionNo": 2,
+    "customerId": "7669cf97-6179-43ad-866c-56aaccf6cb62",
+    "deliverySnapshot": {
+      "customerName": "R128-d9a82170下降",
+      "contactName": "虚构收货人",
+      "phone": "",
+      "address": "虚构隔离地址"
+    },
+    "confirmedAt": "2026-11-10T04:00:00.000Z",
+    "deliveryStatus": "not_delivered",
+    "deliveredAt": null,
+    "subtotalAmount": "12.00",
+    "discountAmount": "0.00",
+    "roundOffAmount": "0.00",
+    "totalAmount": "12.00",
+    "returnAmount": "0.00",
+    "remark": "",
+    "lines": [
+      {
+        "id": "b3d715cf-a45c-41a7-bae6-a480362a133e",
+        "kind": "normal",
+        "readOnly": false,
+        "productId": "e1d23f95-4251-4a46-8f60-7616930a9992",
+        "productName": "R128-d9a82170虚构商品",
+        "specification": "",
+        "warehouseId": "80e5b446-bde9-4029-b021-eae359bb7e3f",
+        "warehouseName": "R128-d9a82170隔离仓",
+        "unitId": "ab5e6668-f674-46f2-a5b3-0275d1d184f2",
+        "unitName": "瓶",
+        "quantity": 6,
+        "quantityBase": 6,
+        "multiplierBase": 1,
+        "unitPrice": "2",
+        "subtotalAmount": "12.00",
+        "discountAllocatedAmount": "0.00",
+        "netAmount": "12.00",
+        "returnedQuantityBase": 0,
+        "remark": "",
+        "costAmount": "6.00",
+        "grossProfit": "6.00",
+        "allocations": [
+          {
+            "id": "dfe8d115-573e-435b-830c-924b8c856a2a",
+            "batchId": "ed85bac2-df4f-4692-80e6-a034b0e899f6",
+            "warehouseId": "80e5b446-bde9-4029-b021-eae359bb7e3f",
+            "quantityBase": 6,
+            "costAmount": "6.00",
+            "inputUnitCost": "1.000000",
+            "costMultiplierBase": 1,
+            "issueSequence": 1
+          }
+        ]
+      }
+    ],
+    "currentRevisionPrintStatus": "not_requested",
+    "createdAt": "2026-11-12T07:05:35.797Z",
+    "updatedAt": "2026-11-12T07:05:35.804Z",
+    "costAmount": "6.00",
+    "grossProfit": "6.00",
+    "accountChanges": [],
+    "isCurrentRevision": true
+  },
+  "revisions": {
+    "items": [
+      {
+        "revisionId": "11e3af9d-62df-4473-9340-52fc11d9b18e",
+        "revisionNo": 2,
+        "createdAt": "2026-11-12T07:05:35.804Z",
+        "changeReason": "确认销售",
+        "createdBy": "8bfd9887-3b38-4389-81de-ac560985507b",
+        "isCurrent": true
+      },
+      {
+        "revisionId": "9debcfd7-d9f4-4b1c-a026-5ba9f8d7381f",
+        "revisionNo": 1,
+        "createdAt": "2026-11-12T07:05:35.797Z",
+        "changeReason": "创建草稿",
+        "createdBy": "8bfd9887-3b38-4389-81de-ac560985507b",
+        "isCurrent": false
+      }
+    ],
+    "nextCursor": null,
+    "asOf": "2026-11-12T07:07:29.920Z"
+  },
+  "layout": {
+    "viewport": {
+      "width": 360,
+      "height": 718,
+      "dpr": 3
+    },
+    "root": {
+      "width": 360,
+      "scrollWidth": 360,
+      "overflowX": "visible"
+    },
+    "body": {
+      "width": 360,
+      "scrollWidth": 360,
+      "overflowX": "hidden"
+    },
+    "title": "订单 XS49289CCEACE44432BDDDE9AD1140616A",
+    "titleRect": {
+      "x": 117.984375,
+      "y": 49,
+      "width": 218.015625,
+      "height": 78,
+      "top": 49,
+      "right": 336,
+      "bottom": 127,
+      "left": 117.984375
+    },
+    "actions": [
+      {
+        "text": "更正改单",
+        "rect": {
+          "x": 24,
+          "y": 188.39584350585938,
+          "width": 101.88021087646484,
+          "height": 35.5,
+          "top": 188.39584350585938,
+          "right": 125.88021087646484,
+          "bottom": 223.89584350585938,
+          "left": 24
+        },
+        "disabled": false
+      },
+      {
+        "text": "部分退货",
+        "rect": {
+          "x": 133.88021850585938,
+          "y": 188.39584350585938,
+          "width": 79.88542175292969,
+          "height": 35.5,
+          "top": 188.39584350585938,
+          "right": 213.76564025878906,
+          "bottom": 223.89584350585938,
+          "left": 133.88021850585938
+        },
+        "disabled": false
+      },
+      {
+        "text": "确认已配送",
+        "rect": {
+          "x": 221.765625,
+          "y": 188.39584350585938,
+          "width": 114.234375,
+          "height": 35.5,
+          "top": 188.39584350585938,
+          "right": 336,
+          "bottom": 223.89584350585938,
+          "left": 221.765625
+        },
+        "disabled": false
+      },
+      {
+        "text": "作废订单",
+        "rect": {
+          "x": 24,
+          "y": 234.89584350585938,
+          "width": 139.921875,
+          "height": 28,
+          "top": 234.89584350585938,
+          "right": 163.921875,
+          "bottom": 262.8958435058594,
+          "left": 24
+        },
+        "disabled": false
+      },
+      {
+        "text": "打印配送单",
+        "rect": {
+          "x": 171.921875,
+          "y": 231.89584350585938,
+          "width": 164.078125,
+          "height": 34,
+          "top": 231.89584350585938,
+          "right": 336,
+          "bottom": 265.8958435058594,
+          "left": 171.921875
+        },
+        "disabled": false
+      }
+    ],
+    "tables": [
+      {
+        "overflow": "auto",
+        "width": 310,
+        "scrollWidth": 850
+      }
+    ],
+    "text": "货友铺\n管理员\n← 返回列表\n订单 XS49289CCEACE44432BDDDE9AD1140616A\n已确认\n版本 v2\n创建时间: 2026-11-12 15:05:35\n更正改单\n部分退货\n确认已配送\n作废订单\n打印配送单\n配送客户\nR128-d9a82170下降\n联系人: 虚构收货人 (—)\n地址: 虚构隔离地址\n订单金额\n¥12.00\n商品小计: ¥12.00 · 优惠: ¥0.00 · 抹零: ¥0.00\n履约与打印状态\n未配送\n未出纸\n核算成本与毛利 (管理员)\n成本: ¥6.00\n毛利: ¥6.00\n商品明细 (1)\n退货与返库记录 (0)\n版本历史 (2)\n#\t商品名称 / 规格\t出货仓\t销售单位\t销售数量\t基础数量\t成交单价\t小计金额\t已退基础量\t批次成本\t毛利\n1\t\nR128-d9a82170虚构商品\n\tR128-d9a82170隔离仓\t瓶\t6\t6\t¥2\t¥12.00\t0\t¥6.00\t¥6.00\n销售开单\n订单管理\n打印单据\n商品资料\n更多"
+  },
+  "historyText": "货友铺\n管理员\n← 返回列表\n订单 XS49289CCEACE44432BDDDE9AD1140616A\n已确认\n版本 v2\n创建时间: 2026-11-12 15:05:35\n更正改单\n部分退货\n确认已配送\n作废订单\n打印配送单\n配送客户\nR128-d9a82170下降\n联系人: 虚构收货人 (—)\n地址: 虚构隔离地址\n订单金额\n¥12.00\n商品小计: ¥12.00 · 优惠: ¥0.00 · 抹零: ¥0.00\n履约与打印状态\n未配送\n未出纸\n核算成本与毛利 (管理员)\n成本: ¥6.00\n毛利: ¥6.00\n商品明细 (1)\n退货与返库记录 (0)\n版本历史 (2)\n版本号\t变更原因\t变更时间\t操作\nv2当前生效\t确认销售\t2026-11-12 15:05:35\t当前版本\nv1\t创建草稿\t2026-11-12 15:05:35\t查看此版本快照\n销售开单\n订单管理\n打印单据\n商品资料\n更多",
+  "historical": {
+    "text": "货友铺\n管理员\n【历史版本只读快照 - 版本号 #v1】\n更新时间: 2026-11-12 15:05:35 · 变更原因: 创建草稿\n← 返回当前生效版本 (v2)\n← 返回列表\n订单 XS49289CCEACE44432BDDDE9AD1140616A\n已确认\n版本 v1\n历史只读\n创建时间: 2026-11-12 15:05:35\n← 返回当前生效版本 (v2)\n打印配送单\n配送客户\nR128-d9a82170下降\n联系人: 虚构收货人 (—)\n地址: 虚构隔离地址\n订单金额\n¥12.00\n商品小计: ¥12.00 · 优惠: ¥0.00 · 抹零: ¥0.00\n履约与打印状态\n未配送\n未出纸\n核算成本与毛利 (管理员)\n成本: ¥0.00\n毛利: ¥12.00\n商品明细 (1)\n退货与返库记录 (0)\n版本历史 (2)\n#\t商品名称 / 规格\t出货仓\t销售单位\t销售数量\t基础数量\t成交单价\t小计金额\t已退基础量\t批次成本\t毛利\n1\t\nR128-d9a82170虚构商品\n\tR128-d9a82170隔离仓\t瓶\t6\t6\t¥2\t¥12.00\t0\t¥0.00\t¥12.00\n销售开单\n订单管理\n打印单据\n商品资料\n更多",
+    "width": 360,
+    "actions": [
+      "← 返回当前生效版本 (v2)",
+      "打印配送单"
+    ]
+  },
+  "preview": "货友铺\n管理员\n← 返回单据\n销售配送单打印预览\n纸型: custom (横向)\n边距: 5mm\n可打印宽: 231mm\n模板版本: v1\n历史订单重打 (v1)\n模板配置\n调起打印机 (Window Print)\n订单版本：\n当前最新版本 (v1)\n版本 v2 (确认销售) - 2026-11-12T07:05\n版本 v1 (创建草稿) - 2026-11-12T07:05\n出库模板：\n真机隔离241×93模板 (默认)\n模板版本：\n最新发布版 (v1)\nv1 (2026-11-12) - 当前最新\n货友铺 销售商品配送单\n电话: — · 发货地址: —\n企业名称:\n—\n企业电话:\n—\n订单编号:\nXS49289CCEACE44432BDDDE9AD1140616A\n确认时间:\n2026-11-10 12:00:00\n客户名称:\nR128-d9a82170下降\n联系人:\n虚构收货人\n收货电话:\n—\n收货地址:\n虚构隔离地址\n商品名称\t规格型号\t发货仓库\t单位\t数量\t单价\t金额\n\nR128-d9a82170虚构商品\n\t\n—\n\t\nR128-d9a82170隔离仓\n\t\n瓶\n\t\n6\n\t\n¥2\n\t\n¥12.00\n商品总额: ¥12.00\n整单折扣优惠: -¥0.00\n减免抹零: -¥0.00\n应收合计: ¥12.00\n制单经办: _________________\n配送发货: _________________\n客户签收: _________________\n本单打印与重打历史日志 (0)\n刷新日志\n暂无打印请求记录\n销售开单\n订单管理\n打印单据\n商品资料\n更多"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "apps/web/src/pages/finance/screenshots/customer-finance-manual-allocation.png",
+    "sha256": "99fa5a9a086a5e278711d14a0ba564ea1ba1237bd8b174f19611e611489e3b34",
+    "mtime": 1794418946.983817
+  },
+  {
+    "source": "apps/web/src/pages/finance/screenshots/customer-finance-balance-apply.png",
+    "sha256": "4c9fdf77e6f36504b2aaa0e487fcd98bc1f0e47c827e1bd6c4fe3bd298b678ff",
+    "mtime": 1794418948.639219
+  },
+  {
+    "source": "apps/web/src/pages/finance/screenshots/customer-finance-refund.png",
+    "sha256": "d8c9463c3e96137141fbe45b5de46f7eea1c1eada5308da77cc31d05ced54ea2",
+    "mtime": 1794418949.0555327
+  },
+  {
+    "source": "apps/web/src/pages/finance/screenshots/statements-stale-and-fresh.png",
+    "sha256": "a5ab5ffbdc6e0bee6a9b12ef141108523b5e891c68de4487d0925dce1a24ebf0",
+    "mtime": 1794418951.8525293
+  }
+]

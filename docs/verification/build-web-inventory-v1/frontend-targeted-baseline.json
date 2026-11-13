@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-11T22:01:09.002889+08:00",
+  "before": {
+    "apps/web/src/pages/finance/CustomerFinancePage.tsx": "f9e44163059a4f1b1bd43cd0291a4ee738e31e129b6c08bf995333e946b058d6",
+    "apps/web/test/inventory-finance-browser.test.ts": "fee7c5b29963c55510dcf456d545f72cfc51c3cc6e2d66a590e8f392e2c954fb",
+    "apps/web/src/App.tsx": "4a3b2c9c6a0a1538a0ea1c4fb3cb9e9395559a30878f10715d1aedf330cdee2a",
+    "apps/web/test/agent-a-e2e-regression.test.ts": "59c4401afe87dc29fd1b0d094acdc12ace96ad6b0fae40b5447b9ff31cd502ac",
+    "apps/web/src/pages/printing/OrderPrintPreview.tsx": "0e1a96a616097fcea0e270a822c97a458ea8b030c2374c7fe8c4e9d2e967c175"
+  },
+  "after": {
+    "apps/web/src/pages/finance/CustomerFinancePage.tsx": "f9e44163059a4f1b1bd43cd0291a4ee738e31e129b6c08bf995333e946b058d6",
+    "apps/web/test/inventory-finance-browser.test.ts": "fee7c5b29963c55510dcf456d545f72cfc51c3cc6e2d66a590e8f392e2c954fb",
+    "apps/web/src/App.tsx": "4a3b2c9c6a0a1538a0ea1c4fb3cb9e9395559a30878f10715d1aedf330cdee2a",
+    "apps/web/test/agent-a-e2e-regression.test.ts": "59c4401afe87dc29fd1b0d094acdc12ace96ad6b0fae40b5447b9ff31cd502ac",
+    "apps/web/src/pages/printing/OrderPrintPreview.tsx": "0e1a96a616097fcea0e270a822c97a458ea8b030c2374c7fe8c4e9d2e967c175"
+  },
+  "changed": [],
+  "finalAt": "2026-11-11T22:09:18.835953+08:00",
+  "final": {
+    "apps/web/src/pages/finance/CustomerFinancePage.tsx": "f9e44163059a4f1b1bd43cd0291a4ee738e31e129b6c08bf995333e946b058d6",
+    "apps/web/test/inventory-finance-browser.test.ts": "fee7c5b29963c55510dcf456d545f72cfc51c3cc6e2d66a590e8f392e2c954fb",
+    "apps/web/src/App.tsx": "4a3b2c9c6a0a1538a0ea1c4fb3cb9e9395559a30878f10715d1aedf330cdee2a",
+    "apps/web/test/agent-a-e2e-regression.test.ts": "59c4401afe87dc29fd1b0d094acdc12ace96ad6b0fae40b5447b9ff31cd502ac",
+    "apps/web/src/pages/printing/OrderPrintPreview.tsx": "0e1a96a616097fcea0e270a822c97a458ea8b030c2374c7fe8c4e9d2e967c175"
+  },
+  "changedAtFinal": [],
+  "captureCodeAtFinal": {
+    "apps/web/test/printing-reports-capture.ts": {
+      "sha256": "bb74266447c2813f75810417652453fb9f3238ccfcade1d2fa21c891bcda05a2",
+      "mtime": 1794405562.5745935
+    },
+    "apps/web/src/pages/printing/printing.css": {
+      "sha256": "5f17a65b97d74629bdd08cfe196d79926ddf11705278e15f4e58009440c44aa6",
+      "mtime": 1794405111.4762857
+    },
+    "apps/web/src/pages/printing/OrderPrintPreview.tsx": {
+      "sha256": "0e1a96a616097fcea0e270a822c97a458ea8b030c2374c7fe8c4e9d2e967c175",
+      "mtime": 1794405103.8771365
+    }
+  }
+}

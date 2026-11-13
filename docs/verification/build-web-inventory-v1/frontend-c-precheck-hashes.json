@@ -1,0 +1,72 @@
+{
+  "reviewedAt": "2026-11-11T03:42:49.299173+00:00",
+  "scope": "Final bounded C production source review; no tests/browser/Mini executed; browser-smoke entry remains separately pending",
+  "previousReview": {
+    "reviewedAt": "2026-11-11T02:55:07.847339+00:00",
+    "scope": "C production printing/reports/settings only; C5 artifacts are not frozen",
+    "before": {
+      "apps/web/src/pages/printing/OrderPrintPreview.tsx": "acf45c320b799f87bff3ed1d0989430ad15951d97d38d89c9047926c73dccaaa",
+      "apps/web/src/pages/printing/PrintTemplateManager.tsx": "df54317865a74918d014044eef3ed0a1c274e982458e7cd0e0d4ea5d8d64c592",
+      "apps/web/src/pages/printing/printConfigLogic.ts": "dc909f001ac0c0d0072ff4d2e8ca6ec968fab82765995dcc777fd384c3cc90b9",
+      "apps/web/src/pages/printing/printing.css": "f14aea5a50898beada1172403c766855fae98d82ae83734011f105c7946f1eff",
+      "apps/web/src/pages/reports/AiReportPage.tsx": "fef62fa1e6905dfe52e4007451e9799db8c32493e295232adba68d607dc9a35f",
+      "apps/web/src/pages/reports/ReportsPage.tsx": "312fbf6884943ff5454f180363b4f737d0dc3a9f8280b876aa379ceb1bba19ad",
+      "apps/web/src/pages/reports/reportHelpers.tsx": "8f4d40a99f25576f0337b6d417d670f84dca3f8584a6007a8155e45ba510afd1",
+      "apps/web/src/pages/reports/reports.css": "55e9c43efbc6ccf86b9e12db8d225c849dc6cae4475165b2a7f54d129dc5920a",
+      "apps/web/src/pages/settings/CompanySettingsPage.tsx": "aba2b52273e5679a871948fca7de3eb658df7e9abbe64290c49d938ebfc9d6cd",
+      "apps/web/src/pages/settings/UsersPage.tsx": "899e5c695a676ac24391c1191f3dd881fa8a903c7884abfeab716d5f03bde325",
+      "apps/web/src/pages/settings/settings.css": "3bead566df62b0a2babc1746d5f3863eb90e9cfd33f2033ea2ebe87f650568a0"
+    },
+    "after": {
+      "apps/web/src/pages/printing/OrderPrintPreview.tsx": "acf45c320b799f87bff3ed1d0989430ad15951d97d38d89c9047926c73dccaaa",
+      "apps/web/src/pages/printing/PrintTemplateManager.tsx": "a558e50a5944291673d2967c815b4b6ea68f15413c9052d2404dabc30b88d0a8",
+      "apps/web/src/pages/printing/printConfigLogic.ts": "a2ab4c819f46919d952db647f7617e354eba240016a35168beb78d6a63a432b0",
+      "apps/web/src/pages/printing/printing.css": "f14aea5a50898beada1172403c766855fae98d82ae83734011f105c7946f1eff",
+      "apps/web/src/pages/reports/AiReportPage.tsx": "fef62fa1e6905dfe52e4007451e9799db8c32493e295232adba68d607dc9a35f",
+      "apps/web/src/pages/reports/ReportsPage.tsx": "312fbf6884943ff5454f180363b4f737d0dc3a9f8280b876aa379ceb1bba19ad",
+      "apps/web/src/pages/reports/reportHelpers.tsx": "8f4d40a99f25576f0337b6d417d670f84dca3f8584a6007a8155e45ba510afd1",
+      "apps/web/src/pages/reports/reports.css": "55e9c43efbc6ccf86b9e12db8d225c849dc6cae4475165b2a7f54d129dc5920a",
+      "apps/web/src/pages/settings/CompanySettingsPage.tsx": "aba2b52273e5679a871948fca7de3eb658df7e9abbe64290c49d938ebfc9d6cd",
+      "apps/web/src/pages/settings/UsersPage.tsx": "899e5c695a676ac24391c1191f3dd881fa8a903c7884abfeab716d5f03bde325",
+      "apps/web/src/pages/settings/settings.css": "3bead566df62b0a2babc1746d5f3863eb90e9cfd33f2033ea2ebe87f650568a0"
+    },
+    "changedDuringReview": [
+      "apps/web/src/pages/printing/PrintTemplateManager.tsx",
+      "apps/web/src/pages/printing/printConfigLogic.ts"
+    ]
+  },
+  "before": {
+    "apps/web/src/pages/printing/OrderPrintPreview.tsx": "acf45c320b799f87bff3ed1d0989430ad15951d97d38d89c9047926c73dccaaa",
+    "apps/web/src/pages/printing/PrintTemplateManager.tsx": "a558e50a5944291673d2967c815b4b6ea68f15413c9052d2404dabc30b88d0a8",
+    "apps/web/src/pages/printing/printConfigLogic.ts": "a2ab4c819f46919d952db647f7617e354eba240016a35168beb78d6a63a432b0",
+    "apps/web/src/pages/printing/printing.css": "f14aea5a50898beada1172403c766855fae98d82ae83734011f105c7946f1eff",
+    "apps/web/src/pages/reports/AiReportPage.tsx": "fef62fa1e6905dfe52e4007451e9799db8c32493e295232adba68d607dc9a35f",
+    "apps/web/src/pages/reports/ReportsPage.tsx": "fa5d8f92cf0b9f69a91259fc25ef89bcc5ee8876a5973eea1b685a002f1df95f",
+    "apps/web/src/pages/reports/reportHelpers.tsx": "eee38fbf1689e0403556f918055fc5b57369b63b9d5f7baf812b5ec1044e4018",
+    "apps/web/src/pages/reports/reports.css": "55e9c43efbc6ccf86b9e12db8d225c849dc6cae4475165b2a7f54d129dc5920a",
+    "apps/web/src/pages/settings/CompanySettingsPage.tsx": "aba2b52273e5679a871948fca7de3eb658df7e9abbe64290c49d938ebfc9d6cd",
+    "apps/web/src/pages/settings/UsersPage.tsx": "899e5c695a676ac24391c1191f3dd881fa8a903c7884abfeab716d5f03bde325",
+    "apps/web/src/pages/settings/settings.css": "3bead566df62b0a2babc1746d5f3863eb90e9cfd33f2033ea2ebe87f650568a0"
+  },
+  "after": {
+    "apps/web/src/pages/printing/OrderPrintPreview.tsx": "acf45c320b799f87bff3ed1d0989430ad15951d97d38d89c9047926c73dccaaa",
+    "apps/web/src/pages/printing/PrintTemplateManager.tsx": "a558e50a5944291673d2967c815b4b6ea68f15413c9052d2404dabc30b88d0a8",
+    "apps/web/src/pages/printing/printConfigLogic.ts": "a2ab4c819f46919d952db647f7617e354eba240016a35168beb78d6a63a432b0",
+    "apps/web/src/pages/printing/printing.css": "f14aea5a50898beada1172403c766855fae98d82ae83734011f105c7946f1eff",
+    "apps/web/src/pages/reports/AiReportPage.tsx": "fef62fa1e6905dfe52e4007451e9799db8c32493e295232adba68d607dc9a35f",
+    "apps/web/src/pages/reports/ReportsPage.tsx": "fa5d8f92cf0b9f69a91259fc25ef89bcc5ee8876a5973eea1b685a002f1df95f",
+    "apps/web/src/pages/reports/reportHelpers.tsx": "eee38fbf1689e0403556f918055fc5b57369b63b9d5f7baf812b5ec1044e4018",
+    "apps/web/src/pages/reports/reports.css": "55e9c43efbc6ccf86b9e12db8d225c849dc6cae4475165b2a7f54d129dc5920a",
+    "apps/web/src/pages/settings/CompanySettingsPage.tsx": "aba2b52273e5679a871948fca7de3eb658df7e9abbe64290c49d938ebfc9d6cd",
+    "apps/web/src/pages/settings/UsersPage.tsx": "899e5c695a676ac24391c1191f3dd881fa8a903c7884abfeab716d5f03bde325",
+    "apps/web/src/pages/settings/settings.css": "3bead566df62b0a2babc1746d5f3863eb90e9cfd33f2033ea2ebe87f650568a0"
+  },
+  "changedDuringReview": [],
+  "aiReviewGetNarrowRecheck": {
+    "at": "2026-11-11T04:15:58.339730+00:00",
+    "path": "apps/web/src/pages/reports/AiReportPage.tsx",
+    "sha256": "78a6e910adec891157c0c866cf4532fababba83871690e7a690be19730d3183f",
+    "twoReadsStable": true,
+    "status": "source issue closed; browser late-GET not run"
+  }
+}

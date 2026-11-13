@@ -1,0 +1,305 @@
+{
+  "capturedAt": "2026-11-11T12:42:16.145621+08:00",
+  "files": [
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-company-profile-desktop.png",
+      "sha256": "fd911bd33034c78e514fac7e28ae64a1ecd3aaba6ee63f1756701bad7ba22f84",
+      "bytes": 88083,
+      "mtime": "2026-11-11T12:41:51.266871+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-print-templates-desktop.png",
+      "sha256": "0b958273d548e37b882c8201fcc06257ee056888164357e0256786a675918ac8",
+      "bytes": 180667,
+      "mtime": "2026-11-11T12:41:53.907053+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-print-templates-mobile.png",
+      "sha256": "30154ffed56c8dfe5443485313cf52ec4cd233762a492d16ed77f8d6af45dc3b",
+      "bytes": 77322,
+      "mtime": "2026-11-11T12:41:52.825482+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-users-desktop.png",
+      "sha256": "227e8dacbc0fbe31a629f139a1b423a659f3fb167d0f5008295412115bfc8461",
+      "bytes": 133528,
+      "mtime": "2026-11-11T12:41:54.798015+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/settings/screenshots/settings-company-mobile.png",
+      "sha256": "fcf40f048866aefa5ca9a5e71b527ec14634836078cceef69f848f6c6204774d",
+      "bytes": 63714,
+      "mtime": "2026-11-11T12:41:51.935847+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/product-list-mobile.png",
+      "sha256": "b33f1a5357a2cdb275f7eb56a86ea02dad156e23c303e0976aa11048e02a1e34",
+      "bytes": 46273,
+      "mtime": "2026-11-11T12:37:17.554318+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-address-edit-desktop.png",
+      "sha256": "ce50ab8b310a231f55b57c503d82dca82f746f92494ada7447c7c56bd66bc0c6",
+      "bytes": 134191,
+      "mtime": "2026-11-11T12:37:21.912532+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-list-desktop.png",
+      "sha256": "05ce5215521d3605a22fd7f10c65db7a0adff1c05b76d0dde1048ca350e27896",
+      "bytes": 89119,
+      "mtime": "2026-11-11T12:37:24.234957+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/warehouse-list-desktop.png",
+      "sha256": "5c26adb34d1b62bb59bff1e0f146a8e28d6a8315b7689eea57085a3c03d9dd07",
+      "bytes": 69368,
+      "mtime": "2026-11-11T12:37:27.450369+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/product-unit-edit-desktop.png",
+      "sha256": "25b8d2ca4778a57092fd0e17b9eb474448838aa19a75440bec3021dfa41f63c4",
+      "bytes": 121866,
+      "mtime": "2026-11-11T12:37:16.746739+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/product-list-desktop.png",
+      "sha256": "5e47e348dbd82473bbb863117397b8b2f5e85ae0311563aa6fdf3fca97a31a1d",
+      "bytes": 85478,
+      "mtime": "2026-11-11T12:37:17.112076+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-price-rules-mobile.png",
+      "sha256": "ee674c25ee72bb74ff6ac008640fec2c23a83515144e6d96cb2af2afe9458b0c",
+      "bytes": 66819,
+      "mtime": "2026-11-11T12:37:23.558846+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/customer-price-rules-desktop.png",
+      "sha256": "7cefc2fbdbee9f24644979a2dcdf10eb2769b402b3af246fa9206d013054299c",
+      "bytes": 134659,
+      "mtime": "2026-11-11T12:37:23.104191+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/catalog/screenshots/warehouse-list-mobile.png",
+      "sha256": "bb0ec1d0833c12697b997fd759c96e33017a77a480a611457e71f48bfe96733c",
+      "bytes": 42023,
+      "mtime": "2026-11-11T12:37:27.885261+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-needle-241x93.pdf",
+      "sha256": "ff755f30940ee407a28e61fa3c5a8707bed1b631699f48ec7ac1c18d76f3022d",
+      "bytes": 344341,
+      "mtime": "2026-11-11T12:41:37.910441+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-needle-multipage.pdf",
+      "sha256": "55530c9806ddaaf99fd9a560cf2d70224c7fd24db9db36173ad80424eef9c6d3",
+      "bytes": 387438,
+      "mtime": "2026-11-11T12:41:38.699026+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-a4.pdf",
+      "sha256": "2947e908985a4eb690f019755c7db8cc641104091ed76fb54d85c6399efefb35",
+      "bytes": 313547,
+      "mtime": "2026-11-11T12:41:34.664057+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-preview-mobile.png",
+      "sha256": "c4795a6548ff83d9a5ca4b19dd936ea774cb7f641737f3c458d9ce4b7e504973",
+      "bytes": 78492,
+      "mtime": "2026-11-11T12:41:35.347316+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-custom.pdf",
+      "sha256": "ff755f30940ee407a28e61fa3c5a8707bed1b631699f48ec7ac1c18d76f3022d",
+      "bytes": 344341,
+      "mtime": "2026-11-11T12:41:37.911556+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-preview-desktop.png",
+      "sha256": "5899fb627fd12b621165a371963eca8f0d7b914d181c48a42fb406678ced8d72",
+      "bytes": 127715,
+      "mtime": "2026-11-11T12:41:34.689464+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-a5-landscape.pdf",
+      "sha256": "73ddf92872ab9fd27d47aa9ebe086b6e37a4db526c049d8ef64807a8d98bb66a",
+      "bytes": 314170,
+      "mtime": "2026-11-11T12:41:38.274360+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/order-print-output-multipage.pdf",
+      "sha256": "e8093073eeacd2324d55508b7a1f8a390e25a0b7eea18794fdbaa60b031201e9",
+      "bytes": 363827,
+      "mtime": "2026-11-11T12:41:38.482019+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-preview-needle-241x93.png",
+      "sha256": "6a384e1782f63fb51c00f1c0bf0cfb529f21ddba88fbfd4617a313cf7b67a1db",
+      "bytes": 143591,
+      "mtime": "2026-11-11T12:41:37.962749+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/printing/screenshots/printing-template-manager-desktop.png",
+      "sha256": "c0fc85c3398446342c8ffeac2eebbfee1e89f1b04ae837f0f5a93ce5eced23aa",
+      "bytes": 178447,
+      "mtime": "2026-11-11T12:41:36.476300+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-batches-desktop.png",
+      "sha256": "0b369d210d78c63cac4cf2d66a2dd4514ace2021093f83c8c48cf0e60825d8e4",
+      "bytes": 205750,
+      "mtime": "2026-11-11T12:41:06.187751+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-balances-desktop.png",
+      "sha256": "0e06a8b5ae1bb8755890b4033e15241005b74d84d98ac2ea53427f223f678c43",
+      "bytes": 145469,
+      "mtime": "2026-11-11T12:41:07.482798+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-receipts-desktop.png",
+      "sha256": "e64dedc39419ba113628c3863440f4365c58d8ddd495f03796726f224749cbe8",
+      "bytes": 229853,
+      "mtime": "2026-11-11T12:41:08.170530+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/receipt-create-desktop.png",
+      "sha256": "3389decbc8028a124346b13803a4dd8e87b138c8e668f83efb8fcecb0f0b2b25",
+      "bytes": 95033,
+      "mtime": "2026-11-11T12:41:09.480298+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/receipt-create-mobile.png",
+      "sha256": "e4527588ff07d8f33a3f2a3fb5ed6367e392c4876c2a2b7b5910497d312adf53",
+      "bytes": 68821,
+      "mtime": "2026-11-11T12:41:10.024582+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/stocktake-mobile.png",
+      "sha256": "14e80bb6bdb77d83c1909f798bd2553612ec13023dbb9f46e34be41af846304e",
+      "bytes": 86387,
+      "mtime": "2026-11-11T12:41:12.106447+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/inventory-batches-mobile.png",
+      "sha256": "3e83438b6927b9811fbd2baa9ec38ac8b633693db45501e6521c161f685bd1bd",
+      "bytes": 90293,
+      "mtime": "2026-11-11T12:41:06.780417+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/inventory/screenshots/stocktake-desktop.png",
+      "sha256": "7d307d1c4684000d31b44975714f663bed644fb089f1bb3568e2e131d3564711",
+      "bytes": 149926,
+      "mtime": "2026-11-11T12:41:11.539133+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/customer-finance-mobile.png",
+      "sha256": "dafefc0f30d6ab418aa1f19ab19eb9e5d17e254ef632b1b2d02872c71d6652d2",
+      "bytes": 77315,
+      "mtime": "2026-11-11T12:41:13.432987+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/customer-finance-desktop.png",
+      "sha256": "0efe3ee5ed0291cecd303ababc7b5f690e400895b3cebec4636ed7c0b159314e",
+      "bytes": 208595,
+      "mtime": "2026-11-11T12:41:12.879307+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/statements-desktop.png",
+      "sha256": "da74fe23a268f57b3aa0aba4908f12870c5350dd5f15199538751ab93b74fe26",
+      "bytes": 204702,
+      "mtime": "2026-11-11T12:41:16.255634+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/cash-events-mobile.png",
+      "sha256": "68088b8649c93e5abf362d4514a8633d306c165236a1165a4f220496e7b53d87",
+      "bytes": 65487,
+      "mtime": "2026-11-11T12:41:14.684743+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/cash-events-desktop.png",
+      "sha256": "f8170328233eeb7d5785b1dadeeaea321b009eb7b1164fdfaa5e2fe50b041f5d",
+      "bytes": 119648,
+      "mtime": "2026-11-11T12:41:14.129936+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/customer-receipt-modal-desktop.png",
+      "sha256": "bc1aaa642251905b1c4212ba22de403b6317c9fff9a36203fa684f56d398429a",
+      "bytes": 203367,
+      "mtime": "2026-11-11T12:41:15.111569+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/statements-mobile.png",
+      "sha256": "1d5d4519cbabe2e613f50783b4231609445216cd57468ec355f5d970c9ae0292",
+      "bytes": 83992,
+      "mtime": "2026-11-11T12:41:16.816262+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/finance/screenshots/statement-detail-desktop.png",
+      "sha256": "ee30717728a213dccbd9a4d41dd500f754492d9bcdbb2aa7231bc66876cc0252",
+      "bytes": 210933,
+      "mtime": "2026-11-11T12:41:17.425808+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-503-fallback.png",
+      "sha256": "dbf4810b7a18d5f4638aa30aeb5db4c1650bee6060e703b6d753ef0d61b45be6",
+      "bytes": 101811,
+      "mtime": "2026-11-11T12:41:48.915226+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-sales-summary-desktop.png",
+      "sha256": "66d4e00bb31636f0ccbf7099adca44d831e1d05c7f3c30488e9d47e6841fc01b",
+      "bytes": 142357,
+      "mtime": "2026-11-11T12:41:40.207225+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-inventory-desktop.png",
+      "sha256": "d676199aa49065d36786dcf487bf036b9426b03ad63f2aac8a25554ff19c6d6d",
+      "bytes": 196189,
+      "mtime": "2026-11-11T12:41:41.945160+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-customer-product-desktop.png",
+      "sha256": "c1deb4e1d9a88f5cd06975975e83562a0112a0dd99ca6e45b1e71eb130698406",
+      "bytes": 183509,
+      "mtime": "2026-11-11T12:41:41.069829+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-cash-flow-desktop.png",
+      "sha256": "e283499b596a6992a877a2dfdae5e0b7647248c87c724a9e8cac125a2a5c1073",
+      "bytes": 195890,
+      "mtime": "2026-11-11T12:41:42.822674+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-clarification.png",
+      "sha256": "8495a59f954a059361bddcc5e3d9f32c3c4b9b9eafe2ad1168eb70a67c4bd369",
+      "bytes": 118293,
+      "mtime": "2026-11-11T12:41:44.479303+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-mobile.png",
+      "sha256": "82278140ab995758e35b58d649b54df3a3cc655ca7b181f5bd4a5a9f6c124495",
+      "bytes": 89370,
+      "mtime": "2026-11-11T12:41:45.257446+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/reports-mobile.png",
+      "sha256": "ef3acfb315c7dc2b9f0438eab456f4e0c5c31af177daa5e9d93faafbd1d24568",
+      "bytes": 87155,
+      "mtime": "2026-11-11T12:41:43.474097+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-desktop.png",
+      "sha256": "5c6b453e301b70218100250713d3399ddc94463cde605cb726f51fb716b69adb",
+      "bytes": 81492,
+      "mtime": "2026-11-11T12:41:44.377317+08:00"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/ai-report-answered.png",
+      "sha256": "84137ef191b69860df4c05c6ff14ac1b7e73a22328502bd817484979a72571bf",
+      "bytes": 164296,
+      "mtime": "2026-11-11T12:41:44.613166+08:00"
+    }
+  ]
+}

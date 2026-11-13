@@ -1,0 +1,18 @@
+import {readFile} from 'node:fs/promises';
+import {createResponsesAdapter} from './modules/ai/model.js';
+import {createApp} from './app.js';
+import {createDatabase} from '@huoyoupu/database';
+const databaseUrl = process.env.DATABASE_URL;
+const publicOrigin = process.env.PUBLIC_ORIGIN;
+if (!databaseUrl || !publicOrigin) throw new Error('DATABASE_URL and PUBLIC_ORIGIN are required');
+const apiKey = process.env.AI_API_KEY_FILE ? (await readFile(process.env.AI_API_KEY_FILE,'utf8')).trim() : process.env.AI_API_KEY;
+const modelName = process.env.AI_MODEL;
+if (Boolean(apiKey) !== Boolean(modelName)) throw new Error('AI_API_KEY (or AI_API_KEY_FILE) and AI_MODEL must be configured together');
+const model = apiKey && modelName ? createResponsesAdapter({apiKey,model:modelName,...(process.env.AI_ENDPOINT ? {endpoint:process.env.AI_ENDPOINT} : {})}) : undefined;
+const {pool} = createDatabase(databaseUrl);
+const app = createApp({logger: true, database: pool, publicOrigin, ...(model ? {ai:{model}} : {})});
+app.addHook('onClose', async () => {await pool.end();});
+const port = Number(process.env.PORT ?? '3000');
+if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error('Invalid PORT');
+await app.listen({host: process.env.HOST ?? '127.0.0.1', port});
+for (const signal of ['SIGINT', 'SIGTERM'] as const) process.once(signal, () => void app.close());

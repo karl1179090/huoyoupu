@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-11-11T20:44:52.562350+00:00",
+  "baseline": "Private protected-before.json from root designated /tmp/huoyoupu-deepseek-mevXbR",
+  "baselineCount": 90,
+  "currentCount": 90,
+  "added": [],
+  "deleted": [],
+  "changed": [],
+  "scope": {
+    "fixed": [
+      "AGENTS.md",
+      "CLAUDE.md",
+      "package.json",
+      "package-lock.json",
+      "npm-shrinkwrap.json",
+      "tsconfig.json",
+      "apps/web/package.json",
+      "apps/web/package-lock.json",
+      "apps/web/tsconfig.json",
+      "apps/web/vite.config.ts",
+      "apps/api/package.json",
+      "apps/api/tsconfig.json",
+      "apps/api/tsconfig.build.json"
+    ],
+    "roots": [
+      "apps/api/src",
+      "packages/contracts",
+      "packages/database",
+      "packages/money"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+      "test",
+      "tests",
+      ".git"
+    ],
+    "extensions": [
+      "ts",
+      "json",
+      "sql"
+    ]
+  },
+  "allUnchanged": true
+}

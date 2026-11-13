@@ -1,0 +1,135 @@
+[
+  {
+    "path": "/api/v1/orders/quote",
+    "status": 200,
+    "body": {
+      "customerId": "92fb21c1-ad3c-4d79-9c76-c70dcacb3b29",
+      "addressId": "781dcde1-2cb9-42d4-80b9-8e78e4503fac",
+      "lines": [
+        {
+          "clientLineId": "line-3p00mfe",
+          "productId": "2ec82d27-bb4f-4f5a-b965-6f68d5e15235",
+          "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+          "unitId": "1ceffa59-4a30-4653-85d5-b2487663dff2",
+          "quantity": 3,
+          "unitPrice": "2",
+          "allocationMode": "auto"
+        },
+        {
+          "clientLineId": "line-l2pdf0s",
+          "productId": "2ec82d27-bb4f-4f5a-b965-6f68d5e15235",
+          "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+          "unitId": "1ceffa59-4a30-4653-85d5-b2487663dff2",
+          "quantity": 1,
+          "unitPrice": "2.5",
+          "allocationMode": "auto"
+        },
+        {
+          "clientLineId": "line-jokgwcy",
+          "productId": "1a3132d0-fd96-424a-a93f-035839a724e3",
+          "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+          "unitId": "6d8402f6-5985-4418-bbd1-571f5a660dae",
+          "quantity": 2,
+          "unitPrice": "3",
+          "allocationMode": "auto"
+        }
+      ],
+      "discountAmount": "0.00",
+      "roundOffAmount": "0.00"
+    },
+    "response": {
+      "calculation": {
+        "subtotalAmount": "14.50",
+        "discountAmount": "0.00",
+        "roundOffAmount": "0.00",
+        "totalAmount": "14.50",
+        "costAmount": "7.00",
+        "grossProfit": "7.50",
+        "accountChanges": [
+          {
+            "customerId": "92fb21c1-ad3c-4d79-9c76-c70dcacb3b29",
+            "beforeNetBalance": "4.00",
+            "afterNetBalance": "18.50"
+          }
+        ],
+        "lines": [
+          {
+            "clientLineId": "line-3p00mfe",
+            "sourceLineId": null,
+            "productId": "2ec82d27-bb4f-4f5a-b965-6f68d5e15235",
+            "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+            "unitId": "1ceffa59-4a30-4653-85d5-b2487663dff2",
+            "quantityBase": 3,
+            "subtotalAmount": "6.00",
+            "discountAllocatedAmount": "0.00",
+            "netAmount": "6.00",
+            "costAmount": "3.00",
+            "grossProfit": "3.00",
+            "readOnly": false,
+            "allocations": [
+              {
+                "batchId": "b43895ff-4e55-4705-925a-2b72eeb7b9c4",
+                "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+                "quantityBase": 3,
+                "costAmount": "3.00",
+                "inputUnitCost": "1.000000",
+                "costMultiplierBase": 1
+              }
+            ]
+          },
+          {
+            "clientLineId": "line-l2pdf0s",
+            "sourceLineId": null,
+            "productId": "2ec82d27-bb4f-4f5a-b965-6f68d5e15235",
+            "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+            "unitId": "1ceffa59-4a30-4653-85d5-b2487663dff2",
+            "quantityBase": 1,
+            "subtotalAmount": "2.50",
+            "discountAllocatedAmount": "0.00",
+            "netAmount": "2.50",
+            "costAmount": "1.00",
+            "grossProfit": "1.50",
+            "readOnly": false,
+            "allocations": [
+              {
+                "batchId": "b43895ff-4e55-4705-925a-2b72eeb7b9c4",
+                "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+                "quantityBase": 1,
+                "costAmount": "1.00",
+                "inputUnitCost": "1.000000",
+                "costMultiplierBase": 1
+              }
+            ]
+          },
+          {
+            "clientLineId": "line-jokgwcy",
+            "sourceLineId": null,
+            "productId": "1a3132d0-fd96-424a-a93f-035839a724e3",
+            "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+            "unitId": "6d8402f6-5985-4418-bbd1-571f5a660dae",
+            "quantityBase": 2,
+            "subtotalAmount": "6.00",
+            "discountAllocatedAmount": "0.00",
+            "netAmount": "6.00",
+            "costAmount": "3.00",
+            "grossProfit": "3.00",
+            "readOnly": false,
+            "allocations": [
+              {
+                "batchId": "3e8a36b0-0926-405f-8bec-2823ab1079a2",
+                "warehouseId": "f9ea8d2d-b32f-46aa-8d07-62f7064324be",
+                "quantityBase": 2,
+                "costAmount": "3.00",
+                "inputUnitCost": "1.500000",
+                "costMultiplierBase": 1
+              }
+            ]
+          }
+        ]
+      },
+      "warnings": [],
+      "stockReserved": false,
+      "asOf": "2026-11-12T06:44:41.806Z"
+    }
+  }
+]

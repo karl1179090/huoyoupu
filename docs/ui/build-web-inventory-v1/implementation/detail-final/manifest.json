@@ -1,0 +1,52 @@
+{
+  "at": "2026-11-12T15:09:55.593905+08:00",
+  "sourceBaseline": "frontend-detail-final-baseline.json",
+  "device": {
+    "model": "SM-G981N",
+    "android": "13",
+    "chrome": "157.0.8103.48",
+    "cssViewport": [
+      360,
+      718
+    ],
+    "dpr": 3
+  },
+  "desktopViewport": [
+    1280,
+    900
+  ],
+  "artifacts": {
+    "android360-history-print-app.png": {
+      "bytes": 216216,
+      "sha256": "35303aafafce8c4308672badeaf8f6456ef90c45e0d56eef1799c087914a81da"
+    },
+    "desktop-results.json": {
+      "bytes": 5960,
+      "sha256": "b5a35f3dd3e8a4e9035b3a1a15ca48fde7f87fbe9929a55585fa21f1a7ccc2c5"
+    },
+    "android360-versions.png": {
+      "bytes": 173748,
+      "sha256": "9cea847100db2e03f43e3634569f290e4b235fda2cb8c15a1b6e4ee1f3147d20"
+    },
+    "desktop1280-detail.png": {
+      "bytes": 106437,
+      "sha256": "2ecc1c7d30ea89d1c9e5251fd696ef66ee9cc66f412aa17dc16e9fdfd2fa603d"
+    },
+    "android360-history-readonly.png": {
+      "bytes": 172761,
+      "sha256": "42b09fca9e543462f01afb58ed4e4facd47148868949072e7530b87ad6000d3f"
+    },
+    "desktop1280-employee-detail.png": {
+      "bytes": 78145,
+      "sha256": "e64c6401acc6c54b8cb6f2933ea6e9e2015e703652bd694835d2320892924535"
+    },
+    "phone-results.json": {
+      "bytes": 9603,
+      "sha256": "b21ff6770333ddf9afbc844277862f9a1af64cf1dbe1d603aaf8a021fb30a55a"
+    },
+    "android360-detail.png": {
+      "bytes": 187973,
+      "sha256": "cf8f4f91011849038d2cf3f90ea5cb3b9f195f02c7e4722e5c4915b8fd0b4731"
+    }
+  }
+}

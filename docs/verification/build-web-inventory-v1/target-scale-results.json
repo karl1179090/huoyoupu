@@ -1,0 +1,151 @@
+{
+  "at": "2026-11-11T02:23:42.603Z",
+  "hardware": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M5",
+    "logicalCpus": 10,
+    "memoryBytes": 17179869184
+  },
+  "postgres": "PostgreSQL 18.6 (Homebrew) on aarch64-apple-darwin27.0.0, compiled by Apple clang version 21.0.0 (clang-2100.3.34.2), 64-bit",
+  "settings": [
+    {
+      "name": "max_connections",
+      "setting": "100",
+      "unit": null
+    },
+    {
+      "name": "shared_buffers",
+      "setting": "16384",
+      "unit": "8kB"
+    },
+    {
+      "name": "work_mem",
+      "setting": "4096",
+      "unit": "kB"
+    }
+  ],
+  "assumptions": {
+    "requestedDays": 365,
+    "actualDays": 365,
+    "ordersPerDay": 50,
+    "linesPerOrder": 3,
+    "warehouses": 2,
+    "batchesPerProductWarehouse": 4,
+    "paidEveryFifthOrder": true,
+    "simulationBase": "2025-11-11T01:00:00.000Z",
+    "period": {
+      "from": "2026-10-12T01:00:00.000Z",
+      "to": "2026-11-11T01:00:00.000Z"
+    }
+  },
+  "seedSeconds": 310.19774458300003,
+  "counts": {
+    "products": 200,
+    "customers": 100,
+    "orders": 18255,
+    "revision_lines": 109530,
+    "batches": 1600,
+    "movements": 56365,
+    "ledger": 21905,
+    "allocations": 3650,
+    "bytes": "316782271"
+  },
+  "invariant": {
+    "quantity_ok": true,
+    "cost_ok": true,
+    "accounts_ok": true
+  },
+  "measurements": {
+    "product_search_500mljy": {
+      "milliseconds": [
+        3.0382920000120066,
+        1.2559999999939464,
+        1.0608749999664724
+      ],
+      "uniqueSelectPlans": 1
+    },
+    "customer_order_page": {
+      "milliseconds": [
+        22.608166999998502,
+        15.42579199996544,
+        14.959875000000466
+      ],
+      "uniqueSelectPlans": 6
+    },
+    "unsettled_candidates_50": {
+      "milliseconds": [
+        31.250166999991052,
+        30.555125000013504,
+        32.388791999954265
+      ],
+      "uniqueSelectPlans": 9
+    },
+    "inventory_batches": {
+      "milliseconds": [
+        1.4259580000070855,
+        0.1633750000037253,
+        0.12479199998779222
+      ],
+      "uniqueSelectPlans": 1
+    },
+    "customer_ledger_page": {
+      "milliseconds": [
+        3.321541999990586,
+        0.5549170000012964,
+        0.4632080000010319
+      ],
+      "uniqueSelectPlans": 2
+    },
+    "historical_price": {
+      "milliseconds": [
+        24.0380839999998,
+        23.165833999984898,
+        22.554875000030734
+      ],
+      "uniqueSelectPlans": 1
+    },
+    "monthly_statement": {
+      "milliseconds": [
+        11.076249999983702,
+        1.9913329999544658,
+        1.6486670000012964
+      ],
+      "uniqueSelectPlans": 4
+    },
+    "report_sales_30_days": {
+      "milliseconds": [
+        105.6681249999674,
+        58.23883400001796,
+        57.976124999986496
+      ],
+      "uniqueSelectPlans": 4
+    },
+    "report_customer_balances": {
+      "milliseconds": [
+        222.87383400002727,
+        227.62670900003286,
+        212.69699999998556
+      ],
+      "uniqueSelectPlans": 3
+    },
+    "report_inventory": {
+      "milliseconds": [
+        156.78700000001118,
+        100.54658299998846,
+        96.96920799999498
+      ],
+      "uniqueSelectPlans": 3
+    },
+    "five_concurrent_reads": {
+      "milliseconds": 18.721957999980077,
+      "workers": 5
+    },
+    "five_concurrent_confirmations": {
+      "milliseconds": 59.84183300001314,
+      "workers": 5,
+      "quantityDecrease": 15
+    }
+  },
+  "totalSeconds": 313.469105458
+}

@@ -1,0 +1,4 @@
+e7a25a331407130c03313110f340a84acbe852f3e44ec1860b778e31620689ab  apps/web/test/agent-a-e2e-regression.test.ts
+4a3b2c9c6a0a1538a0ea1c4fb3cb9e9395559a30878f10715d1aedf330cdee2a  apps/web/src/App.tsx
+5a50b1b52cf40ab84f998a23b37ce331c8adc166a12047ac0f7565bfe8aba882  apps/web/src/pages/sales/OrderCreatePage.tsx
+d7cf6348924a12aeeb50d6053b22bb722ec11d584e602a858d114ca9550ffab1  apps/web/src/pages/sales/OrderEditPage.tsx

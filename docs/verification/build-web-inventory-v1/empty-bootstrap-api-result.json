@@ -1,0 +1,33 @@
+{
+  "migrations": 8,
+  "baseTables": 47,
+  "afterMigration": {
+    "companyProfiles": 1,
+    "users": 0,
+    "allOtherRowsExceptMigrations": 0
+  },
+  "bootstrap": {
+    "admins": 1,
+    "operations": 1,
+    "auditEvents": 1,
+    "businessTables": 39,
+    "allBusinessRows": 0,
+    "productUnits": 0,
+    "templates": 0
+  },
+  "duplicateMigrateApplied": [],
+  "duplicateAdminExit": 1,
+  "restartFingerprintsUnchanged": true,
+  "emptyReports": 6,
+  "salesSummaryZeroAggregateRows": 1,
+  "companyConfigPersisted": true,
+  "laterRoleCaseUsers": 2,
+  "employeeForbidden": true,
+  "businessRowsAfterAllChecks": 0,
+  "status": "Initial non-browser CLI/API run passed; subsequent explicit UI handoff mode awaits final execution",
+  "command": "env -u TEST_DATABASE_URL TMPDIR=/tmp npm run test:db -- apps/api/test/empty-bootstrap.db.test.ts",
+  "pass": 1,
+  "fail": 0,
+  "exitCode": 0,
+  "durationMs": 4231.536042
+}

@@ -1,0 +1,55 @@
+{
+  "status": "v5 targeted isolated deployment validation passed; all project services stopped",
+  "shippingManifest": "fullstack-source-manifest-v5.json",
+  "shippingFileCount": 146,
+  "afterSmokeShippingDrift": [],
+  "apiImage": "sha256:396b979111706257521878430d13d52319df85be5219b5ddc5bae3bd11d48233",
+  "webImage": "sha256:f9a7a0502b1a023ded7b93b906ea418c883c2c2eef33baf9508a1aa696082e71",
+  "actualContainerTags": [
+    "huoyoupu-test-fullstack-2sm3fc3d-api-v5",
+    "huoyoupu-test-fullstack-2sm3fc3d-web-v5"
+  ],
+  "strictCaIpSan": true,
+  "currentLeafSpkiRecomputed": true,
+  "indexStatus": 200,
+  "indexSha256": "e964472d5fef403b406899c6010b1f3506e86a529227d44784bbaed995ffffd8",
+  "assets": [
+    {
+      "path": "/assets/index-Cogy-3Ko.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "9a355a97405c6537d464dc3fa1d5d7d16f042d1ffdbedd21ce2a8da98ad4f519",
+      "bytes": 20927
+    },
+    {
+      "path": "/assets/index-rmei_GfS.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "sha256": "c750dede607b7076db27e61cdb434adb19c4cffcb96b4fc3c80a8cefab6458ff",
+      "bytes": 662680
+    }
+  ],
+  "tests": {
+    "pass": 2,
+    "fail": 0,
+    "skip": 0,
+    "exitCode": 0,
+    "durationMs": 3440.60475,
+    "nodeStaticTest": "Node fetch HTTPS health, index HTML, hashed static assets & 404 missing asset probe",
+    "nodeStaticMs": 82.2465,
+    "browserTest": "Read-only Browser Smoke: Auth lifecycle, deep linking, source resolution, and role gating",
+    "browserMs": 3078.0475,
+    "zeroBusinessWriteAssertionReached": true,
+    "roleSwitchReloads": 0,
+    "employeeRestrictedApiCalls": 0
+  },
+  "deploymentTestSha256": "d966e42018fd8791ffb235379121a597ca3a79276b158726ecbe6be9cf98e1e7",
+  "servicesStopped": true,
+  "protectedManifest": "fullstack-v5-protected.json",
+  "protectedFilesBefore": 90,
+  "protectedFilesAfter": 90,
+  "protectedAdded": [],
+  "protectedDeleted": [],
+  "protectedChanged": [],
+  "sourceAndProtectionScopesDistinct": true
+}

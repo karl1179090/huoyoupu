@@ -1,0 +1,467 @@
+{
+  "before": [
+    {
+      "table": "ai_query_runs",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "audit_events",
+      "count": "19",
+      "digest": "9b22bfdbe5141bcbf4b817daa2cd5a4e"
+    },
+    {
+      "table": "business_operations",
+      "count": "10",
+      "digest": "e35c2c555be47fe611a59df2d9b5cd06"
+    },
+    {
+      "table": "cash_events",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "cash_reversals",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "company_profiles",
+      "count": "1",
+      "digest": "4dfa2397f50c02ce5d11bf307abca96e"
+    },
+    {
+      "table": "customer_accounts",
+      "count": "1",
+      "digest": "aec47c0821982595d71880a9c84abb2f"
+    },
+    {
+      "table": "customer_addresses",
+      "count": "1",
+      "digest": "a453de3c5a61b76f890f1667ed906616"
+    },
+    {
+      "table": "customer_ledger_entries",
+      "count": "2",
+      "digest": "008d8d72bdfe1997a5a98be336abd13b"
+    },
+    {
+      "table": "customer_price_rules",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "customers",
+      "count": "1",
+      "digest": "138f394289f7c9297e35bebe004f8c3b"
+    },
+    {
+      "table": "idempotency_records",
+      "count": "9",
+      "digest": "af94c0a6e57b2cf889beb8868b04ef48"
+    },
+    {
+      "table": "inventory_batches",
+      "count": "1",
+      "digest": "5b6f8409acef9ee8f5b50963c84763e9"
+    },
+    {
+      "table": "inventory_loss_entries",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "opening_balances",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "order_lines",
+      "count": "1",
+      "digest": "4d37297328c1acf4c96ec0fb69e06e76"
+    },
+    {
+      "table": "order_revisions",
+      "count": "3",
+      "digest": "7e27b30de82ca05cc9dcefe4e014258b"
+    },
+    {
+      "table": "print_job_status_events",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "print_jobs",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "print_template_versions",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "print_templates",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "product_barcodes",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "product_units",
+      "count": "1",
+      "digest": "40e777ef4bbece4863131ed1dc9a204b"
+    },
+    {
+      "table": "products",
+      "count": "1",
+      "digest": "911d16de473a4d8c08cfc9167308756c"
+    },
+    {
+      "table": "receipt_lines",
+      "count": "1",
+      "digest": "2bd1eb0fe4d5f50592a825617994c000"
+    },
+    {
+      "table": "receipts",
+      "count": "1",
+      "digest": "50a1606dcd56034444ca2351d1116194"
+    },
+    {
+      "table": "report_runs",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "restock_events",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "restock_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "return_allocations",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "return_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "revision_allocation_links",
+      "count": "2",
+      "digest": "30f431f4697579f5d895e4fdc3a0d13b"
+    },
+    {
+      "table": "revision_lines",
+      "count": "3",
+      "digest": "7784601f7f0c6a92cbd58db17f40175c"
+    },
+    {
+      "table": "sale_allocations",
+      "count": "1",
+      "digest": "308d658f36100529b705021211afa608"
+    },
+    {
+      "table": "sale_release_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "sales_orders",
+      "count": "1",
+      "digest": "72a5d30c2cf18dd89effe116f7cb0631"
+    },
+    {
+      "table": "sales_returns",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "schema_migrations",
+      "count": "8",
+      "digest": "6c00a5e25d75098a67167ada3867f853"
+    },
+    {
+      "table": "settlement_allocations",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "statement_snapshots",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "stock_balances",
+      "count": "1",
+      "digest": "bedd74e2e86386a6ce3ca0fda0115afd"
+    },
+    {
+      "table": "stock_movements",
+      "count": "2",
+      "digest": "17b69f252ee87395dde013451f273218"
+    },
+    {
+      "table": "stocktake_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "stocktakes",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "users",
+      "count": "2",
+      "digest": "dbd74f05ea6186003e57f6b827d25378"
+    },
+    {
+      "table": "warehouses",
+      "count": "1",
+      "digest": "405a2c843db3e808f11a9ef52c24b870"
+    }
+  ],
+  "after": [
+    {
+      "table": "ai_query_runs",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "audit_events",
+      "count": "19",
+      "digest": "9b22bfdbe5141bcbf4b817daa2cd5a4e"
+    },
+    {
+      "table": "business_operations",
+      "count": "10",
+      "digest": "e35c2c555be47fe611a59df2d9b5cd06"
+    },
+    {
+      "table": "cash_events",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "cash_reversals",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "company_profiles",
+      "count": "1",
+      "digest": "4dfa2397f50c02ce5d11bf307abca96e"
+    },
+    {
+      "table": "customer_accounts",
+      "count": "1",
+      "digest": "aec47c0821982595d71880a9c84abb2f"
+    },
+    {
+      "table": "customer_addresses",
+      "count": "1",
+      "digest": "a453de3c5a61b76f890f1667ed906616"
+    },
+    {
+      "table": "customer_ledger_entries",
+      "count": "2",
+      "digest": "008d8d72bdfe1997a5a98be336abd13b"
+    },
+    {
+      "table": "customer_price_rules",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "customers",
+      "count": "1",
+      "digest": "138f394289f7c9297e35bebe004f8c3b"
+    },
+    {
+      "table": "idempotency_records",
+      "count": "9",
+      "digest": "af94c0a6e57b2cf889beb8868b04ef48"
+    },
+    {
+      "table": "inventory_batches",
+      "count": "1",
+      "digest": "5b6f8409acef9ee8f5b50963c84763e9"
+    },
+    {
+      "table": "inventory_loss_entries",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "opening_balances",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "order_lines",
+      "count": "1",
+      "digest": "4d37297328c1acf4c96ec0fb69e06e76"
+    },
+    {
+      "table": "order_revisions",
+      "count": "3",
+      "digest": "7e27b30de82ca05cc9dcefe4e014258b"
+    },
+    {
+      "table": "print_job_status_events",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "print_jobs",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "print_template_versions",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "print_templates",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "product_barcodes",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "product_units",
+      "count": "1",
+      "digest": "40e777ef4bbece4863131ed1dc9a204b"
+    },
+    {
+      "table": "products",
+      "count": "1",
+      "digest": "911d16de473a4d8c08cfc9167308756c"
+    },
+    {
+      "table": "receipt_lines",
+      "count": "1",
+      "digest": "2bd1eb0fe4d5f50592a825617994c000"
+    },
+    {
+      "table": "receipts",
+      "count": "1",
+      "digest": "50a1606dcd56034444ca2351d1116194"
+    },
+    {
+      "table": "report_runs",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "restock_events",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "restock_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "return_allocations",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "return_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "revision_allocation_links",
+      "count": "2",
+      "digest": "30f431f4697579f5d895e4fdc3a0d13b"
+    },
+    {
+      "table": "revision_lines",
+      "count": "3",
+      "digest": "7784601f7f0c6a92cbd58db17f40175c"
+    },
+    {
+      "table": "sale_allocations",
+      "count": "1",
+      "digest": "308d658f36100529b705021211afa608"
+    },
+    {
+      "table": "sale_release_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "sales_orders",
+      "count": "1",
+      "digest": "72a5d30c2cf18dd89effe116f7cb0631"
+    },
+    {
+      "table": "sales_returns",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "schema_migrations",
+      "count": "8",
+      "digest": "6c00a5e25d75098a67167ada3867f853"
+    },
+    {
+      "table": "settlement_allocations",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "statement_snapshots",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "stock_balances",
+      "count": "1",
+      "digest": "bedd74e2e86386a6ce3ca0fda0115afd"
+    },
+    {
+      "table": "stock_movements",
+      "count": "2",
+      "digest": "17b69f252ee87395dde013451f273218"
+    },
+    {
+      "table": "stocktake_lines",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "stocktakes",
+      "count": "0",
+      "digest": "d751713988987e9331980363e24189ce"
+    },
+    {
+      "table": "users",
+      "count": "2",
+      "digest": "dbd74f05ea6186003e57f6b827d25378"
+    },
+    {
+      "table": "warehouses",
+      "count": "1",
+      "digest": "405a2c843db3e808f11a9ef52c24b870"
+    }
+  ],
+  "allUnchanged": true
+}

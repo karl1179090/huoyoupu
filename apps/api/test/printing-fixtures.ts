@@ -1,0 +1,1 @@
+export const printConfig={paper:{size:'A4' as const,orientation:'portrait' as const,marginMm:10},headerFields:['companyName' as const,'orderNo' as const,'customerName' as const],columns:[{field:'productName' as const,label:'商品',widthMm:100,align:'left' as const},{field:'netAmount' as const,label:'金额',widthMm:90,align:'right' as const}],minRowHeightMm:6,showRemark:true};

@@ -1,0 +1,9 @@
+{
+  "reviewedAt": "2026-11-11T04:00:08.280787+00:00",
+  "mode": "read-only source review, no execution",
+  "sha256": {
+    "apps/web/test/deployment-browser-smoke.test.ts": "46d53b09ac6678bc040c01d7f16e29d97e78193f7ad3264be462a5af6f9b0260",
+    "apps/web/DEPLOYMENT_SMOKE_NOTES.md": "5c3923ee8ecbcb21fea91ccfe8a42dd9fa1b0352fad1220c026cf3bf6faac3bf",
+    "scripts/prepare-deployment-smoke-fixture.py": "af10dbf78ea01187d297175183a3d9f049a554367179eebbf274e0574efbadfa"
+  }
+}

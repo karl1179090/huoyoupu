@@ -1,0 +1,99 @@
+name: huoyoupu
+x-api: &api
+  image: ${HYP_API_IMAGE:?Set HYP_API_IMAGE to the built release image}
+  environment: &api-environment
+    PUBLIC_ORIGIN: https://${HYP_DOMAIN:?Set HYP_DOMAIN}
+    DB_HOST: db
+    DB_NAME: ${HYP_DB_NAME:-huoyoupu}
+    DB_USER: huoyoupu
+    HOST: 0.0.0.0
+    PORT: "3000"
+  secrets: [db_password]
+  networks: [internal]
+  depends_on:
+    db:
+      condition: service_healthy
+services:
+  db:
+    image: ${HYP_PG_IMAGE:-postgres:18-bookworm}
+    environment:
+      POSTGRES_DB: huoyoupu
+      HYP_BACKUP_DB: ${HYP_DB_NAME:-huoyoupu}
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+    secrets: [postgres_password, db_password]
+    volumes:
+      - postgres_data:/var/lib/postgresql
+      - ./001-create-app-role.sql:/docker-entrypoint-initdb.d/001-create-app-role.sql:ro
+    networks: [internal]
+    restart: unless-stopped
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U huoyoupu -d huoyoupu"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  migrate:
+    <<: *api
+    command: [node, infra/runtime.mjs, migrate]
+    restart: "no"
+  api:
+    <<: *api
+    networks: [internal, edge]
+    environment:
+      <<: *api-environment
+      AI_API_KEY: ${AI_API_KEY:-}
+      AI_MODEL: ${AI_MODEL:-}
+      AI_ENDPOINT: ${AI_ENDPOINT:-https://api.openai.com/v1/responses}
+    command: [node, infra/runtime.mjs, serve]
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+  initialize-admin:
+    <<: *api
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    profiles: [setup]
+    command: [node, infra/runtime.mjs, initialize-admin]
+    environment:
+      HYP_ADMIN_LOGIN: ${HYP_ADMIN_LOGIN:-admin}
+    secrets: [db_password, admin_password]
+  proxy:
+    image: ${HYP_WEB_IMAGE:?Set HYP_WEB_IMAGE to the built web release image}
+    environment:
+      HYP_DOMAIN: ${HYP_DOMAIN:?Set HYP_DOMAIN}
+    ports: ["80:80", "443:443", "443:443/udp"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    networks: [internal, edge]
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+secrets:
+  postgres_password:
+    file: ./secrets/postgres_password
+  db_password:
+    file: ./secrets/db_password
+  admin_password:
+    file: ./secrets/admin_password
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:
+networks:
+  internal:
+    internal: true
+  edge: {}

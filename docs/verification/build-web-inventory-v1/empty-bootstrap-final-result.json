@@ -1,0 +1,40 @@
+{
+  "migrations": 8,
+  "baseTables": 47,
+  "afterMigration": {
+    "companyProfiles": 1,
+    "users": 0,
+    "allOtherRowsExceptMigrations": 0
+  },
+  "bootstrap": {
+    "admins": 1,
+    "operations": 1,
+    "auditEvents": 1,
+    "businessTables": 39,
+    "allBusinessRows": 0,
+    "productUnits": 0,
+    "templates": 0
+  },
+  "duplicateMigrateApplied": [],
+  "duplicateAdminExit": 1,
+  "restartFingerprintsUnchanged": true,
+  "emptyReports": 6,
+  "salesSummaryZeroAggregateRows": 1,
+  "companyConfigPersisted": true,
+  "laterRoleCaseUsers": 2,
+  "employeeForbidden": true,
+  "browserHandoffReleased": true,
+  "businessRowsAfterAllChecks": 0,
+  "status": "Final explicit UI handoff run passed and owned resources cleaned",
+  "command": "env -u TEST_DATABASE_URL HYP_EMPTY_UI_HANDOFF_DIR=<owned0700directory> TMPDIR=/tmp npm run test:db -- apps/api/test/empty-bootstrap.db.test.ts",
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "exitCode": 0,
+  "caseDurationMs": 76021.036125,
+  "durationMs": 76356.508333,
+  "privateMetadataRemoved": true,
+  "releaseMarkerObserved": true,
+  "uiEvidenceOwner": "acceptance independent real browser",
+  "uiEvidenceDirectory": "empty-ui-artifacts"
+}

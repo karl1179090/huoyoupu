@@ -1,0 +1,86 @@
+{
+  "purpose": "Fictional disposable fullstack deployment, not production",
+  "origin": "https://192.0.2.10:49543",
+  "project": "huoyoupu-test-fullstack-2sm3fc3d",
+  "ids": {
+    "orderId": "f9465df9-8fe3-45af-83d6-1f02dc2b6e3a",
+    "revisionId": "e47c2ef7-12c6-4149-8636-2fbdc7814954",
+    "productId": "bb013afc-8cf5-4a5a-9b59-01ab9e0d27b8",
+    "warehouseId": "4e4ee7c6-7546-4b3c-9ab0-1be80b609f94",
+    "batchId": "bbb35163-55e7-4892-b36e-a74f928eeb06",
+    "customerId": "b323a9ca-1fbe-4bc5-8e9b-7f375cb1247f",
+    "ledgerEntryId": "847a7668-0821-401a-86a2-a6b7313c2da7"
+  },
+  "expectedHistoricalTotal": "10.00",
+  "expectedCurrentTotal": "12.00",
+  "expectedRemainingQuantityBase": 8,
+  "expectedRemainingCost": "16.00",
+  "browserTestSha256": "bb07501ff496674c7018b27da9c1920ef26f6a48ce6c91e64cbbeed99154e3fd",
+  "firstThreeTests": {
+    "pass": 3,
+    "fail": 0,
+    "skip": 0,
+    "exitCode": 0
+  },
+  "businessBrowserSmoke": {
+    "pass": 0,
+    "fail": 1,
+    "exitCode": 1,
+    "failure": "Known App adminOnly gate: 15000ms waiting for 403 screen, deployment-browser-smoke.test.ts:404",
+    "durationMs": 913947.367208,
+    "partialAssertions": "Admin login; historical revision GET and read-only view; batch real API/DOM; employee login/print entrance/no reload before 403",
+    "notReached": "403 onward and final zero-write aggregate"
+  },
+  "serviceState": "Only this compose project stopped after passing ledger final smoke; private directory and volumes retained",
+  "v2": {
+    "sourceManifest": "fullstack-source-manifest-v2.json",
+    "webImage": "sha256:8a3bb1ecc63c52c5664f3c4c8f9bbb9a240d1327721d257adf39f53877066d5a",
+    "indexStatus": 200,
+    "indexSha256": "fd3d4b188566284003a95e8bb0e4a060b442f270bc60105a617c99793995c693",
+    "assets": [
+      {
+        "path": "/assets/index-Cogy-3Ko.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8",
+        "sha256": "9a355a97405c6537d464dc3fa1d5d7d16f042d1ffdbedd21ce2a8da98ad4f519",
+        "bytes": 20927
+      },
+      {
+        "path": "/assets/index-DfF1-4y5.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "sha256": "93f0279ab925c6a5372bcccfc910a26256f8b549c8d9e1f12e3b991cb1bc00ce",
+        "bytes": 655522
+      }
+    ],
+    "strictCAandIpSan": true,
+    "leafSpkiChangedAndRecomputed": true,
+    "tests": {
+      "pass": 1,
+      "fail": 1,
+      "exitCode": 1,
+      "durationMs": 18345.921375,
+      "failure": "same 15000ms 403 screen timeout at deployment-browser-smoke.test.ts:404",
+      "finalZeroWriteAssertionReached": false
+    }
+  },
+  "ledgerFinal": {
+    "pass": 1,
+    "fail": 0,
+    "skip": 0,
+    "exitCode": 0,
+    "durationMs": 10316.328583,
+    "caseDurationMs": 10008.7705,
+    "webImageUnchanged": true,
+    "productionSourceDrift": [],
+    "testAndNotesStable": true,
+    "strictCaIpBeforeRun": true,
+    "currentLeafPinRecomputed": true,
+    "reachedFinalZeroBusinessWrites": true,
+    "roleSwitchReloads": 0,
+    "employeeRestrictedApiCallsDuringLedgerAttempt": 0,
+    "target": "Real fictional customer ledger SourceRef href and immutable ledgerEntryId",
+    "testVersion": "deployment-smoke-ledger-version.json",
+    "tap": "fullstack-browser-ledger-final.tap.txt"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "baseline": "docs/verification/build-web-inventory-v1/frontend-report-mobile-baseline.json",
+  "files": [
+    {
+      "source": "apps/web/src/pages/reports/screenshots/report-comparison-desktop.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/report-comparison-desktop.png",
+      "viewportCss": [
+        1280,
+        800
+      ],
+      "imagePixels": [
+        1280,
+        800
+      ],
+      "sourceMtime": "2026-11-12T03:57:24.285172+08:00",
+      "sha256": "9d4ba913d35293f2dbc698eb8d9f3ba3bcbe85de7e90c7a7fd6db050ae14e13c"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/report-comparison-mobile-390.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/report-comparison-mobile-390.png",
+      "viewportCss": [
+        390,
+        844
+      ],
+      "imagePixels": [
+        390,
+        844
+      ],
+      "sourceMtime": "2026-11-12T03:57:25.080079+08:00",
+      "sha256": "325dd5321e6dc8d261be87e557a629f8d3c3d28e09f07c63ee1f5418185be524"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/report-comparison-mobile-390-table-right.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/report-comparison-mobile-390-table-right.png",
+      "viewportCss": [
+        390,
+        844
+      ],
+      "imagePixels": [
+        390,
+        844
+      ],
+      "sourceMtime": "2026-11-12T03:57:25.420358+08:00",
+      "sha256": "96c321f12fab223d2922e959d92c82ad14812e12be1f46eb7578a7cea0fae9bd"
+    }
+  ]
+}

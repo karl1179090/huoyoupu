@@ -1,0 +1,33 @@
+{
+  "baseline": "docs/verification/build-web-inventory-v1/frontend-report-comparison-baseline.json",
+  "files": [
+    {
+      "source": "apps/web/src/pages/reports/screenshots/report-comparison-desktop.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/report-comparison-desktop.png",
+      "viewportCss": [
+        1280,
+        800
+      ],
+      "imagePixels": [
+        1280,
+        800
+      ],
+      "sourceMtime": "2026-11-12T03:50:53.365961+08:00",
+      "sha256": "5d24b3f9b84344ad8072ad28d2071665d1de6b4e41c520519357472ab82530c0"
+    },
+    {
+      "source": "apps/web/src/pages/reports/screenshots/report-comparison-mobile-390.png",
+      "path": "docs/ui/build-web-inventory-v1/latest-implementation/report-comparison-mobile-390.png",
+      "viewportCss": [
+        390,
+        844
+      ],
+      "imagePixels": [
+        390,
+        844
+      ],
+      "sourceMtime": "2026-11-12T03:50:53.829162+08:00",
+      "sha256": "832346841c1cac0a3acb6dfa78ebecc3b782ed8db0847cec85a2ebf96d021478"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import {jsonb,pgTable,text,timestamp,uuid,varchar} from 'drizzle-orm/pg-core';
+import {reportRuns} from './reporting.js';
+// Migration 008 supplies actor/parent FKs, status/source check, and immutable history.
+export const aiQueryRuns=pgTable('ai_query_runs',{id:uuid('id').primaryKey(),actorId:uuid('actor_id').notNull(),question:varchar('question',{length:4000}).notNull(),normalizedIntent:jsonb('normalized_intent').notNull(),reportRunId:uuid('report_run_id').references(()=>reportRuns.id),status:text('status').notNull(),clarificationSnapshot:jsonb('clarification_snapshot'),resultSnapshot:jsonb('result_snapshot').notNull(),modelReference:varchar('model_reference',{length:200}).notNull(),parentRunId:uuid('parent_run_id'),createdAt:timestamp('created_at',{withTimezone:true}).notNull().defaultNow()});

@@ -1,0 +1,51 @@
+{
+  "fullRun": {
+    "id": "1d485f76-e72a-496d-9f70-c98f31849340",
+    "rowCount": 3,
+    "normalizedQueryLimit": 50,
+    "nextCursor": null
+  },
+  "pages": [
+    {
+      "url": "/report-runs/1d485f76-e72a-496d-9f70-c98f31849340?limit=1",
+      "requestedLimit": 1,
+      "normalizedQueryLimit": 50,
+      "id": "1d485f76-e72a-496d-9f70-c98f31849340",
+      "customerIds": [
+        "11646428-a5cf-4533-928d-ff25ec0e9f52"
+      ],
+      "nextCursor": "eyJpZCI6IjFkNDg1Zjc2LWU3MmEtNDk2ZC05ZjcwLWM5OGYzMTg0OTM0MCIsInZpZXciOiJyb3dzIiwib2Zmc2V0IjoxfQ",
+      "asOf": "2026-11-11T19:42:56.129Z",
+      "sourceWatermark": "c2eeafad14624455567794af87f05ff1c43dd079cd98f072fb594e5e3560079a"
+    },
+    {
+      "url": "/report-runs/1d485f76-e72a-496d-9f70-c98f31849340?limit=1&cursor=eyJpZCI6IjFkNDg1Zjc2LWU3MmEtNDk2ZC05ZjcwLWM5OGYzMTg0OTM0MCIsInZpZXciOiJyb3dzIiwib2Zmc2V0IjoxfQ",
+      "requestedLimit": 1,
+      "normalizedQueryLimit": 50,
+      "id": "1d485f76-e72a-496d-9f70-c98f31849340",
+      "customerIds": [
+        "dcb94b9a-cee2-4f18-90db-8c6a8a7a7792"
+      ],
+      "nextCursor": "eyJpZCI6IjFkNDg1Zjc2LWU3MmEtNDk2ZC05ZjcwLWM5OGYzMTg0OTM0MCIsInZpZXciOiJyb3dzIiwib2Zmc2V0IjoyfQ",
+      "asOf": "2026-11-11T19:42:56.129Z",
+      "sourceWatermark": "c2eeafad14624455567794af87f05ff1c43dd079cd98f072fb594e5e3560079a"
+    },
+    {
+      "url": "/report-runs/1d485f76-e72a-496d-9f70-c98f31849340?limit=1&cursor=eyJpZCI6IjFkNDg1Zjc2LWU3MmEtNDk2ZC05ZjcwLWM5OGYzMTg0OTM0MCIsInZpZXciOiJyb3dzIiwib2Zmc2V0IjoyfQ",
+      "requestedLimit": 1,
+      "normalizedQueryLimit": 50,
+      "id": "1d485f76-e72a-496d-9f70-c98f31849340",
+      "customerIds": [
+        "e4d868a2-158b-4cf5-ac4b-305a7a0567f4"
+      ],
+      "nextCursor": null,
+      "asOf": "2026-11-11T19:42:56.129Z",
+      "sourceWatermark": "c2eeafad14624455567794af87f05ff1c43dd079cd98f072fb594e5e3560079a"
+    }
+  ],
+  "command": "node --conditions=development --import tsx --test apps/api/test/comparison-report-fixture.db.test.ts",
+  "pass": 1,
+  "fail": 0,
+  "exitCode": 0,
+  "scope": "Only own standalone PG+HTTP factory; no dev/Mini/browser"
+}

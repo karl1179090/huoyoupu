@@ -1,0 +1,37 @@
+{
+  "lines": true,
+  "summary": "已选 3 行商品 · 预估总额: ¥14.50",
+  "buttons": [
+    {
+      "text": "保存为草稿",
+      "disabled": false
+    },
+    {
+      "text": "确认销售订单",
+      "disabled": false
+    }
+  ],
+  "bar": {
+    "x": 0,
+    "y": 573,
+    "width": 360,
+    "height": 85,
+    "top": 573,
+    "right": 360,
+    "bottom": 658,
+    "left": 0
+  },
+  "nav": {
+    "x": 0,
+    "y": 668.5,
+    "width": 360,
+    "height": 49.5,
+    "top": 668.5,
+    "right": 360,
+    "bottom": 718,
+    "left": 0
+  },
+  "width": 360,
+  "height": 718,
+  "scrollWidth": 360
+}
